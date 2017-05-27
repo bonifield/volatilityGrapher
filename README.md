@@ -4,7 +4,7 @@ Force-Directed Graph Generator for Volatility Ouputs
 
 <b> volCombine.py</b>
 Maps pid/ppid connections with process names and usernames.  Combines pslist data with envars and/or psscan (if presented as arguments) into one graph.
-- Usage (pslist.txt is <u>required</u>):  <b><i>volCombine.py pslist.txt</i></b>
+- Usage (pslist.txt is <i>required</i>):  <b><i>volCombine.py pslist.txt</i></b>
 - Usage (with optional arguments):  <b><i>volCombine.py pslist.txt envars.txt psscan.txt</i></b>
 - TODO:  colorize individual nodes
 

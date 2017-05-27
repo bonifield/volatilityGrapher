@@ -1,0 +1,1179 @@
+Pid      Process              Block      Variable                       Value
+-------- -------------------- ---------- ------------------------------ -----
+     272 smss.exe             0x002107f0 Path                           C:\Windows\System32
+     272 smss.exe             0x002107f0 SystemDrive                    C:
+     272 smss.exe             0x002107f0 SystemRoot                     C:\Windows
+     360 csrss.exe            0x002a07f0 ComSpec                        C:\Windows\system32\cmd.exe
+     360 csrss.exe            0x002a07f0 FP_NO_HOST_CHECK               NO
+     360 csrss.exe            0x002a07f0 NUMBER_OF_PROCESSORS           4
+     360 csrss.exe            0x002a07f0 OS                             Windows_NT
+     360 csrss.exe            0x002a07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     360 csrss.exe            0x002a07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     360 csrss.exe            0x002a07f0 PROCESSOR_ARCHITECTURE         x86
+     360 csrss.exe            0x002a07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     360 csrss.exe            0x002a07f0 PROCESSOR_LEVEL                16
+     360 csrss.exe            0x002a07f0 PROCESSOR_REVISION             0203
+     360 csrss.exe            0x002a07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     360 csrss.exe            0x002a07f0 SystemDrive                    C:
+     360 csrss.exe            0x002a07f0 SystemRoot                     C:\Windows
+     360 csrss.exe            0x002a07f0 TEMP                           C:\Windows\TEMP
+     360 csrss.exe            0x002a07f0 TMP                            C:\Windows\TEMP
+     360 csrss.exe            0x002a07f0 USERNAME                       SYSTEM
+     360 csrss.exe            0x002a07f0 windir                         C:\Windows
+     360 csrss.exe            0x002a07f0 windows_tracing_flags          3
+     360 csrss.exe            0x002a07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     408 csrss.exe            0x000b07f0 ComSpec                        C:\Windows\system32\cmd.exe
+     408 csrss.exe            0x000b07f0 FP_NO_HOST_CHECK               NO
+     408 csrss.exe            0x000b07f0 NUMBER_OF_PROCESSORS           4
+     408 csrss.exe            0x000b07f0 OS                             Windows_NT
+     408 csrss.exe            0x000b07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     408 csrss.exe            0x000b07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     408 csrss.exe            0x000b07f0 PROCESSOR_ARCHITECTURE         x86
+     408 csrss.exe            0x000b07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     408 csrss.exe            0x000b07f0 PROCESSOR_LEVEL                16
+     408 csrss.exe            0x000b07f0 PROCESSOR_REVISION             0203
+     408 csrss.exe            0x000b07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     408 csrss.exe            0x000b07f0 SystemDrive                    C:
+     408 csrss.exe            0x000b07f0 SystemRoot                     C:\Windows
+     408 csrss.exe            0x000b07f0 TEMP                           C:\Windows\TEMP
+     408 csrss.exe            0x000b07f0 TMP                            C:\Windows\TEMP
+     408 csrss.exe            0x000b07f0 USERNAME                       SYSTEM
+     408 csrss.exe            0x000b07f0 windir                         C:\Windows
+     408 csrss.exe            0x000b07f0 windows_tracing_flags          3
+     408 csrss.exe            0x000b07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     416 wininit.exe          0x003f6680 ALLUSERSPROFILE                C:\ProgramData
+     416 wininit.exe          0x003f6680 CommonProgramFiles             C:\Program Files\Common Files
+     416 wininit.exe          0x003f6680 COMPUTERNAME                   USERMACHINE01
+     416 wininit.exe          0x003f6680 ComSpec                        C:\Windows\system32\cmd.exe
+     416 wininit.exe          0x003f6680 FP_NO_HOST_CHECK               NO
+     416 wininit.exe          0x003f6680 NUMBER_OF_PROCESSORS           4
+     416 wininit.exe          0x003f6680 OS                             Windows_NT
+     416 wininit.exe          0x003f6680 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     416 wininit.exe          0x003f6680 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     416 wininit.exe          0x003f6680 PROCESSOR_ARCHITECTURE         x86
+     416 wininit.exe          0x003f6680 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     416 wininit.exe          0x003f6680 PROCESSOR_LEVEL                16
+     416 wininit.exe          0x003f6680 PROCESSOR_REVISION             0203
+     416 wininit.exe          0x003f6680 ProgramData                    C:\ProgramData
+     416 wininit.exe          0x003f6680 ProgramFiles                   C:\Program Files
+     416 wininit.exe          0x003f6680 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     416 wininit.exe          0x003f6680 PUBLIC                         C:\Users\Public
+     416 wininit.exe          0x003f6680 SystemDrive                    C:
+     416 wininit.exe          0x003f6680 SystemRoot                     C:\Windows
+     416 wininit.exe          0x003f6680 TEMP                           C:\Windows\TEMP
+     416 wininit.exe          0x003f6680 TMP                            C:\Windows\TEMP
+     416 wininit.exe          0x003f6680 USERNAME                       SYSTEM
+     416 wininit.exe          0x003f6680 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     416 wininit.exe          0x003f6680 windir                         C:\Windows
+     416 wininit.exe          0x003f6680 windows_tracing_flags          3
+     416 wininit.exe          0x003f6680 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     456 winlogon.exe         0x003199f8 ALLUSERSPROFILE                C:\ProgramData
+     456 winlogon.exe         0x003199f8 CommonProgramFiles             C:\Program Files\Common Files
+     456 winlogon.exe         0x003199f8 COMPUTERNAME                   USERMACHINE01
+     456 winlogon.exe         0x003199f8 ComSpec                        C:\Windows\system32\cmd.exe
+     456 winlogon.exe         0x003199f8 FP_NO_HOST_CHECK               NO
+     456 winlogon.exe         0x003199f8 NUMBER_OF_PROCESSORS           4
+     456 winlogon.exe         0x003199f8 OS                             Windows_NT
+     456 winlogon.exe         0x003199f8 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     456 winlogon.exe         0x003199f8 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     456 winlogon.exe         0x003199f8 PROCESSOR_ARCHITECTURE         x86
+     456 winlogon.exe         0x003199f8 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     456 winlogon.exe         0x003199f8 PROCESSOR_LEVEL                16
+     456 winlogon.exe         0x003199f8 PROCESSOR_REVISION             0203
+     456 winlogon.exe         0x003199f8 ProgramData                    C:\ProgramData
+     456 winlogon.exe         0x003199f8 ProgramFiles                   C:\Program Files
+     456 winlogon.exe         0x003199f8 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     456 winlogon.exe         0x003199f8 PUBLIC                         C:\Users\Public
+     456 winlogon.exe         0x003199f8 SystemDrive                    C:
+     456 winlogon.exe         0x003199f8 SystemRoot                     C:\Windows
+     456 winlogon.exe         0x003199f8 TEMP                           C:\Windows\TEMP
+     456 winlogon.exe         0x003199f8 TMP                            C:\Windows\TEMP
+     456 winlogon.exe         0x003199f8 USERNAME                       SYSTEM
+     456 winlogon.exe         0x003199f8 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     456 winlogon.exe         0x003199f8 windir                         C:\Windows
+     456 winlogon.exe         0x003199f8 windows_tracing_flags          3
+     456 winlogon.exe         0x003199f8 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     504 services.exe         0x003107f0 ALLUSERSPROFILE                C:\ProgramData
+     504 services.exe         0x003107f0 CommonProgramFiles             C:\Program Files\Common Files
+     504 services.exe         0x003107f0 COMPUTERNAME                   USERMACHINE01
+     504 services.exe         0x003107f0 ComSpec                        C:\Windows\system32\cmd.exe
+     504 services.exe         0x003107f0 FP_NO_HOST_CHECK               NO
+     504 services.exe         0x003107f0 NUMBER_OF_PROCESSORS           4
+     504 services.exe         0x003107f0 OS                             Windows_NT
+     504 services.exe         0x003107f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     504 services.exe         0x003107f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     504 services.exe         0x003107f0 PROCESSOR_ARCHITECTURE         x86
+     504 services.exe         0x003107f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     504 services.exe         0x003107f0 PROCESSOR_LEVEL                16
+     504 services.exe         0x003107f0 PROCESSOR_REVISION             0203
+     504 services.exe         0x003107f0 ProgramData                    C:\ProgramData
+     504 services.exe         0x003107f0 ProgramFiles                   C:\Program Files
+     504 services.exe         0x003107f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     504 services.exe         0x003107f0 PUBLIC                         C:\Users\Public
+     504 services.exe         0x003107f0 SystemDrive                    C:
+     504 services.exe         0x003107f0 SystemRoot                     C:\Windows
+     504 services.exe         0x003107f0 TEMP                           C:\Windows\TEMP
+     504 services.exe         0x003107f0 TMP                            C:\Windows\TEMP
+     504 services.exe         0x003107f0 USERNAME                       SYSTEM
+     504 services.exe         0x003107f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     504 services.exe         0x003107f0 windir                         C:\Windows
+     504 services.exe         0x003107f0 windows_tracing_flags          3
+     504 services.exe         0x003107f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     512 lsass.exe            0x002107f0 ALLUSERSPROFILE                C:\ProgramData
+     512 lsass.exe            0x002107f0 CommonProgramFiles             C:\Program Files\Common Files
+     512 lsass.exe            0x002107f0 COMPUTERNAME                   USERMACHINE01
+     512 lsass.exe            0x002107f0 ComSpec                        C:\Windows\system32\cmd.exe
+     512 lsass.exe            0x002107f0 FP_NO_HOST_CHECK               NO
+     512 lsass.exe            0x002107f0 NUMBER_OF_PROCESSORS           4
+     512 lsass.exe            0x002107f0 OS                             Windows_NT
+     512 lsass.exe            0x002107f0 Path                           C:\Windows\System32
+     512 lsass.exe            0x002107f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     512 lsass.exe            0x002107f0 PROCESSOR_ARCHITECTURE         x86
+     512 lsass.exe            0x002107f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     512 lsass.exe            0x002107f0 PROCESSOR_LEVEL                16
+     512 lsass.exe            0x002107f0 PROCESSOR_REVISION             0203
+     512 lsass.exe            0x002107f0 ProgramData                    C:\ProgramData
+     512 lsass.exe            0x002107f0 ProgramFiles                   C:\Program Files
+     512 lsass.exe            0x002107f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     512 lsass.exe            0x002107f0 PUBLIC                         C:\Users\Public
+     512 lsass.exe            0x002107f0 SystemDrive                    C:
+     512 lsass.exe            0x002107f0 SystemRoot                     C:\Windows
+     512 lsass.exe            0x002107f0 TEMP                           C:\Windows\TEMP
+     512 lsass.exe            0x002107f0 TMP                            C:\Windows\TEMP
+     512 lsass.exe            0x002107f0 USERNAME                       SYSTEM
+     512 lsass.exe            0x002107f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     512 lsass.exe            0x002107f0 windir                         C:\Windows
+     512 lsass.exe            0x002107f0 windows_tracing_flags          3
+     512 lsass.exe            0x002107f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     520 lsm.exe              0x002607f0 ALLUSERSPROFILE                C:\ProgramData
+     520 lsm.exe              0x002607f0 CommonProgramFiles             C:\Program Files\Common Files
+     520 lsm.exe              0x002607f0 COMPUTERNAME                   USERMACHINE01
+     520 lsm.exe              0x002607f0 ComSpec                        C:\Windows\system32\cmd.exe
+     520 lsm.exe              0x002607f0 FP_NO_HOST_CHECK               NO
+     520 lsm.exe              0x002607f0 NUMBER_OF_PROCESSORS           4
+     520 lsm.exe              0x002607f0 OS                             Windows_NT
+     520 lsm.exe              0x002607f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     520 lsm.exe              0x002607f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     520 lsm.exe              0x002607f0 PROCESSOR_ARCHITECTURE         x86
+     520 lsm.exe              0x002607f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     520 lsm.exe              0x002607f0 PROCESSOR_LEVEL                16
+     520 lsm.exe              0x002607f0 PROCESSOR_REVISION             0203
+     520 lsm.exe              0x002607f0 ProgramData                    C:\ProgramData
+     520 lsm.exe              0x002607f0 ProgramFiles                   C:\Program Files
+     520 lsm.exe              0x002607f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     520 lsm.exe              0x002607f0 PUBLIC                         C:\Users\Public
+     520 lsm.exe              0x002607f0 SystemDrive                    C:
+     520 lsm.exe              0x002607f0 SystemRoot                     C:\Windows
+     520 lsm.exe              0x002607f0 TEMP                           C:\Windows\TEMP
+     520 lsm.exe              0x002607f0 TMP                            C:\Windows\TEMP
+     520 lsm.exe              0x002607f0 USERNAME                       SYSTEM
+     520 lsm.exe              0x002607f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     520 lsm.exe              0x002607f0 windir                         C:\Windows
+     520 lsm.exe              0x002607f0 windows_tracing_flags          3
+     520 lsm.exe              0x002607f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     620 svchost.exe          0x002507f0 ALLUSERSPROFILE                C:\ProgramData
+     620 svchost.exe          0x002507f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     620 svchost.exe          0x002507f0 CommonProgramFiles             C:\Program Files\Common Files
+     620 svchost.exe          0x002507f0 COMPUTERNAME                   USERMACHINE01
+     620 svchost.exe          0x002507f0 ComSpec                        C:\Windows\system32\cmd.exe
+     620 svchost.exe          0x002507f0 FP_NO_HOST_CHECK               NO
+     620 svchost.exe          0x002507f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     620 svchost.exe          0x002507f0 NUMBER_OF_PROCESSORS           4
+     620 svchost.exe          0x002507f0 OS                             Windows_NT
+     620 svchost.exe          0x002507f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     620 svchost.exe          0x002507f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     620 svchost.exe          0x002507f0 PROCESSOR_ARCHITECTURE         x86
+     620 svchost.exe          0x002507f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     620 svchost.exe          0x002507f0 PROCESSOR_LEVEL                16
+     620 svchost.exe          0x002507f0 PROCESSOR_REVISION             0203
+     620 svchost.exe          0x002507f0 ProgramData                    C:\ProgramData
+     620 svchost.exe          0x002507f0 ProgramFiles                   C:\Program Files
+     620 svchost.exe          0x002507f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     620 svchost.exe          0x002507f0 PUBLIC                         C:\Users\Public
+     620 svchost.exe          0x002507f0 SystemDrive                    C:
+     620 svchost.exe          0x002507f0 SystemRoot                     C:\Windows
+     620 svchost.exe          0x002507f0 TEMP                           C:\Windows\TEMP
+     620 svchost.exe          0x002507f0 TMP                            C:\Windows\TEMP
+     620 svchost.exe          0x002507f0 USERDOMAIN                     SC
+     620 svchost.exe          0x002507f0 USERNAME                       USERMACHINE01$
+     620 svchost.exe          0x002507f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     620 svchost.exe          0x002507f0 windir                         C:\Windows
+     620 svchost.exe          0x002507f0 windows_tracing_flags          3
+     620 svchost.exe          0x002507f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     696 svchost.exe          0x004007f0 ALLUSERSPROFILE                C:\ProgramData
+     696 svchost.exe          0x004007f0 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+     696 svchost.exe          0x004007f0 CommonProgramFiles             C:\Program Files\Common Files
+     696 svchost.exe          0x004007f0 COMPUTERNAME                   USERMACHINE01
+     696 svchost.exe          0x004007f0 ComSpec                        C:\Windows\system32\cmd.exe
+     696 svchost.exe          0x004007f0 FP_NO_HOST_CHECK               NO
+     696 svchost.exe          0x004007f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+     696 svchost.exe          0x004007f0 NUMBER_OF_PROCESSORS           4
+     696 svchost.exe          0x004007f0 OS                             Windows_NT
+     696 svchost.exe          0x004007f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     696 svchost.exe          0x004007f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     696 svchost.exe          0x004007f0 PROCESSOR_ARCHITECTURE         x86
+     696 svchost.exe          0x004007f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     696 svchost.exe          0x004007f0 PROCESSOR_LEVEL                16
+     696 svchost.exe          0x004007f0 PROCESSOR_REVISION             0203
+     696 svchost.exe          0x004007f0 ProgramData                    C:\ProgramData
+     696 svchost.exe          0x004007f0 ProgramFiles                   C:\Program Files
+     696 svchost.exe          0x004007f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     696 svchost.exe          0x004007f0 PUBLIC                         C:\Users\Public
+     696 svchost.exe          0x004007f0 SystemDrive                    C:
+     696 svchost.exe          0x004007f0 SystemRoot                     C:\Windows
+     696 svchost.exe          0x004007f0 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+     696 svchost.exe          0x004007f0 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+     696 svchost.exe          0x004007f0 USERDOMAIN                     SC
+     696 svchost.exe          0x004007f0 USERNAME                       USERMACHINE01$
+     696 svchost.exe          0x004007f0 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+     696 svchost.exe          0x004007f0 windir                         C:\Windows
+     696 svchost.exe          0x004007f0 windows_tracing_flags          3
+     696 svchost.exe          0x004007f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     796 MsMpEng.exe          0x0023c520 ALLUSERSPROFILE                C:\ProgramData
+     796 MsMpEng.exe          0x0023c520 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     796 MsMpEng.exe          0x0023c520 CommonProgramFiles             C:\Program Files\Common Files
+     796 MsMpEng.exe          0x0023c520 COMPUTERNAME                   USERMACHINE01
+     796 MsMpEng.exe          0x0023c520 ComSpec                        C:\Windows\system32\cmd.exe
+     796 MsMpEng.exe          0x0023c520 FP_NO_HOST_CHECK               NO
+     796 MsMpEng.exe          0x0023c520 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     796 MsMpEng.exe          0x0023c520 NUMBER_OF_PROCESSORS           4
+     796 MsMpEng.exe          0x0023c520 OS                             Windows_NT
+     796 MsMpEng.exe          0x0023c520 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     796 MsMpEng.exe          0x0023c520 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     796 MsMpEng.exe          0x0023c520 PROCESSOR_ARCHITECTURE         x86
+     796 MsMpEng.exe          0x0023c520 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     796 MsMpEng.exe          0x0023c520 PROCESSOR_LEVEL                16
+     796 MsMpEng.exe          0x0023c520 PROCESSOR_REVISION             0203
+     796 MsMpEng.exe          0x0023c520 ProgramData                    C:\ProgramData
+     796 MsMpEng.exe          0x0023c520 ProgramFiles                   C:\Program Files
+     796 MsMpEng.exe          0x0023c520 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     796 MsMpEng.exe          0x0023c520 PUBLIC                         C:\Users\Public
+     796 MsMpEng.exe          0x0023c520 SystemDrive                    C:
+     796 MsMpEng.exe          0x0023c520 SystemRoot                     C:\Windows
+     796 MsMpEng.exe          0x0023c520 TEMP                           C:\Windows\TEMP
+     796 MsMpEng.exe          0x0023c520 TMP                            C:\Windows\TEMP
+     796 MsMpEng.exe          0x0023c520 USERDOMAIN                     SC
+     796 MsMpEng.exe          0x0023c520 USERNAME                       USERMACHINE01$
+     796 MsMpEng.exe          0x0023c520 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     796 MsMpEng.exe          0x0023c520 windir                         C:\Windows
+     796 MsMpEng.exe          0x0023c520 windows_tracing_flags          3
+     796 MsMpEng.exe          0x0023c520 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     884 svchost.exe          0x000807f0 ALLUSERSPROFILE                C:\ProgramData
+     884 svchost.exe          0x000807f0 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+     884 svchost.exe          0x000807f0 CommonProgramFiles             C:\Program Files\Common Files
+     884 svchost.exe          0x000807f0 COMPUTERNAME                   USERMACHINE01
+     884 svchost.exe          0x000807f0 ComSpec                        C:\Windows\system32\cmd.exe
+     884 svchost.exe          0x000807f0 FP_NO_HOST_CHECK               NO
+     884 svchost.exe          0x000807f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+     884 svchost.exe          0x000807f0 NUMBER_OF_PROCESSORS           4
+     884 svchost.exe          0x000807f0 OS                             Windows_NT
+     884 svchost.exe          0x000807f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     884 svchost.exe          0x000807f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     884 svchost.exe          0x000807f0 PROCESSOR_ARCHITECTURE         x86
+     884 svchost.exe          0x000807f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     884 svchost.exe          0x000807f0 PROCESSOR_LEVEL                16
+     884 svchost.exe          0x000807f0 PROCESSOR_REVISION             0203
+     884 svchost.exe          0x000807f0 ProgramData                    C:\ProgramData
+     884 svchost.exe          0x000807f0 ProgramFiles                   C:\Program Files
+     884 svchost.exe          0x000807f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     884 svchost.exe          0x000807f0 PUBLIC                         C:\Users\Public
+     884 svchost.exe          0x000807f0 SystemDrive                    C:
+     884 svchost.exe          0x000807f0 SystemRoot                     C:\Windows
+     884 svchost.exe          0x000807f0 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     884 svchost.exe          0x000807f0 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     884 svchost.exe          0x000807f0 USERDOMAIN                     NT AUTHORITY
+     884 svchost.exe          0x000807f0 USERNAME                       LOCAL SERVICE
+     884 svchost.exe          0x000807f0 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+     884 svchost.exe          0x000807f0 windir                         C:\Windows
+     884 svchost.exe          0x000807f0 windows_tracing_flags          3
+     884 svchost.exe          0x000807f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     936 svchost.exe          0x002f07f0 ALLUSERSPROFILE                C:\ProgramData
+     936 svchost.exe          0x002f07f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     936 svchost.exe          0x002f07f0 CommonProgramFiles             C:\Program Files\Common Files
+     936 svchost.exe          0x002f07f0 COMPUTERNAME                   USERMACHINE01
+     936 svchost.exe          0x002f07f0 ComSpec                        C:\Windows\system32\cmd.exe
+     936 svchost.exe          0x002f07f0 FP_NO_HOST_CHECK               NO
+     936 svchost.exe          0x002f07f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     936 svchost.exe          0x002f07f0 NUMBER_OF_PROCESSORS           4
+     936 svchost.exe          0x002f07f0 OS                             Windows_NT
+     936 svchost.exe          0x002f07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     936 svchost.exe          0x002f07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     936 svchost.exe          0x002f07f0 PROCESSOR_ARCHITECTURE         x86
+     936 svchost.exe          0x002f07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     936 svchost.exe          0x002f07f0 PROCESSOR_LEVEL                16
+     936 svchost.exe          0x002f07f0 PROCESSOR_REVISION             0203
+     936 svchost.exe          0x002f07f0 ProgramData                    C:\ProgramData
+     936 svchost.exe          0x002f07f0 ProgramFiles                   C:\Program Files
+     936 svchost.exe          0x002f07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     936 svchost.exe          0x002f07f0 PUBLIC                         C:\Users\Public
+     936 svchost.exe          0x002f07f0 SystemDrive                    C:
+     936 svchost.exe          0x002f07f0 SystemRoot                     C:\Windows
+     936 svchost.exe          0x002f07f0 TEMP                           C:\Windows\TEMP
+     936 svchost.exe          0x002f07f0 TMP                            C:\Windows\TEMP
+     936 svchost.exe          0x002f07f0 USERDOMAIN                     SC
+     936 svchost.exe          0x002f07f0 USERNAME                       USERMACHINE01$
+     936 svchost.exe          0x002f07f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     936 svchost.exe          0x002f07f0 windir                         C:\Windows
+     936 svchost.exe          0x002f07f0 windows_tracing_flags          3
+     936 svchost.exe          0x002f07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     960 svchost.exe          0x001a07f0 ALLUSERSPROFILE                C:\ProgramData
+     960 svchost.exe          0x001a07f0 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+     960 svchost.exe          0x001a07f0 CommonProgramFiles             C:\Program Files\Common Files
+     960 svchost.exe          0x001a07f0 COMPUTERNAME                   USERMACHINE01
+     960 svchost.exe          0x001a07f0 ComSpec                        C:\Windows\system32\cmd.exe
+     960 svchost.exe          0x001a07f0 FP_NO_HOST_CHECK               NO
+     960 svchost.exe          0x001a07f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+     960 svchost.exe          0x001a07f0 NUMBER_OF_PROCESSORS           4
+     960 svchost.exe          0x001a07f0 OS                             Windows_NT
+     960 svchost.exe          0x001a07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     960 svchost.exe          0x001a07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     960 svchost.exe          0x001a07f0 PROCESSOR_ARCHITECTURE         x86
+     960 svchost.exe          0x001a07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     960 svchost.exe          0x001a07f0 PROCESSOR_LEVEL                16
+     960 svchost.exe          0x001a07f0 PROCESSOR_REVISION             0203
+     960 svchost.exe          0x001a07f0 ProgramData                    C:\ProgramData
+     960 svchost.exe          0x001a07f0 ProgramFiles                   C:\Program Files
+     960 svchost.exe          0x001a07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     960 svchost.exe          0x001a07f0 PUBLIC                         C:\Users\Public
+     960 svchost.exe          0x001a07f0 SystemDrive                    C:
+     960 svchost.exe          0x001a07f0 SystemRoot                     C:\Windows
+     960 svchost.exe          0x001a07f0 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     960 svchost.exe          0x001a07f0 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+     960 svchost.exe          0x001a07f0 USERDOMAIN                     NT AUTHORITY
+     960 svchost.exe          0x001a07f0 USERNAME                       LOCAL SERVICE
+     960 svchost.exe          0x001a07f0 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+     960 svchost.exe          0x001a07f0 windir                         C:\Windows
+     960 svchost.exe          0x001a07f0 windows_tracing_flags          3
+     960 svchost.exe          0x001a07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+     988 svchost.exe          0x001b07f0 ALLUSERSPROFILE                C:\ProgramData
+     988 svchost.exe          0x001b07f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+     988 svchost.exe          0x001b07f0 CommonProgramFiles             C:\Program Files\Common Files
+     988 svchost.exe          0x001b07f0 COMPUTERNAME                   USERMACHINE01
+     988 svchost.exe          0x001b07f0 ComSpec                        C:\Windows\system32\cmd.exe
+     988 svchost.exe          0x001b07f0 FP_NO_HOST_CHECK               NO
+     988 svchost.exe          0x001b07f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+     988 svchost.exe          0x001b07f0 NUMBER_OF_PROCESSORS           4
+     988 svchost.exe          0x001b07f0 OS                             Windows_NT
+     988 svchost.exe          0x001b07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+     988 svchost.exe          0x001b07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+     988 svchost.exe          0x001b07f0 PROCESSOR_ARCHITECTURE         x86
+     988 svchost.exe          0x001b07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+     988 svchost.exe          0x001b07f0 PROCESSOR_LEVEL                16
+     988 svchost.exe          0x001b07f0 PROCESSOR_REVISION             0203
+     988 svchost.exe          0x001b07f0 ProgramData                    C:\ProgramData
+     988 svchost.exe          0x001b07f0 ProgramFiles                   C:\Program Files
+     988 svchost.exe          0x001b07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+     988 svchost.exe          0x001b07f0 PUBLIC                         C:\Users\Public
+     988 svchost.exe          0x001b07f0 SystemDrive                    C:
+     988 svchost.exe          0x001b07f0 SystemRoot                     C:\Windows
+     988 svchost.exe          0x001b07f0 TEMP                           C:\Windows\TEMP
+     988 svchost.exe          0x001b07f0 TMP                            C:\Windows\TEMP
+     988 svchost.exe          0x001b07f0 USERDOMAIN                     SC
+     988 svchost.exe          0x001b07f0 USERNAME                       USERMACHINE01$
+     988 svchost.exe          0x001b07f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+     988 svchost.exe          0x001b07f0 windir                         C:\Windows
+     988 svchost.exe          0x001b07f0 windows_tracing_flags          3
+     988 svchost.exe          0x001b07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1240 svchost.exe          0x003007f0 ALLUSERSPROFILE                C:\ProgramData
+    1240 svchost.exe          0x003007f0 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+    1240 svchost.exe          0x003007f0 CommonProgramFiles             C:\Program Files\Common Files
+    1240 svchost.exe          0x003007f0 COMPUTERNAME                   USERMACHINE01
+    1240 svchost.exe          0x003007f0 ComSpec                        C:\Windows\system32\cmd.exe
+    1240 svchost.exe          0x003007f0 FP_NO_HOST_CHECK               NO
+    1240 svchost.exe          0x003007f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+    1240 svchost.exe          0x003007f0 NUMBER_OF_PROCESSORS           4
+    1240 svchost.exe          0x003007f0 OS                             Windows_NT
+    1240 svchost.exe          0x003007f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1240 svchost.exe          0x003007f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1240 svchost.exe          0x003007f0 PROCESSOR_ARCHITECTURE         x86
+    1240 svchost.exe          0x003007f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    1240 svchost.exe          0x003007f0 PROCESSOR_LEVEL                16
+    1240 svchost.exe          0x003007f0 PROCESSOR_REVISION             0203
+    1240 svchost.exe          0x003007f0 ProgramData                    C:\ProgramData
+    1240 svchost.exe          0x003007f0 ProgramFiles                   C:\Program Files
+    1240 svchost.exe          0x003007f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1240 svchost.exe          0x003007f0 PUBLIC                         C:\Users\Public
+    1240 svchost.exe          0x003007f0 SystemDrive                    C:
+    1240 svchost.exe          0x003007f0 SystemRoot                     C:\Windows
+    1240 svchost.exe          0x003007f0 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    1240 svchost.exe          0x003007f0 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    1240 svchost.exe          0x003007f0 USERDOMAIN                     SC
+    1240 svchost.exe          0x003007f0 USERNAME                       USERMACHINE01$
+    1240 svchost.exe          0x003007f0 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+    1240 svchost.exe          0x003007f0 windir                         C:\Windows
+    1240 svchost.exe          0x003007f0 windows_tracing_flags          3
+    1240 svchost.exe          0x003007f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1424 spoolsv.exe          0x001f07f0 ALLUSERSPROFILE                C:\ProgramData
+    1424 spoolsv.exe          0x001f07f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    1424 spoolsv.exe          0x001f07f0 CommonProgramFiles             C:\Program Files\Common Files
+    1424 spoolsv.exe          0x001f07f0 COMPUTERNAME                   USERMACHINE01
+    1424 spoolsv.exe          0x001f07f0 ComSpec                        C:\Windows\system32\cmd.exe
+    1424 spoolsv.exe          0x001f07f0 FP_NO_HOST_CHECK               NO
+    1424 spoolsv.exe          0x001f07f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    1424 spoolsv.exe          0x001f07f0 NUMBER_OF_PROCESSORS           4
+    1424 spoolsv.exe          0x001f07f0 OS                             Windows_NT
+    1424 spoolsv.exe          0x001f07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1424 spoolsv.exe          0x001f07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1424 spoolsv.exe          0x001f07f0 PROCESSOR_ARCHITECTURE         x86
+    1424 spoolsv.exe          0x001f07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    1424 spoolsv.exe          0x001f07f0 PROCESSOR_LEVEL                16
+    1424 spoolsv.exe          0x001f07f0 PROCESSOR_REVISION             0203
+    1424 spoolsv.exe          0x001f07f0 ProgramData                    C:\ProgramData
+    1424 spoolsv.exe          0x001f07f0 ProgramFiles                   C:\Program Files
+    1424 spoolsv.exe          0x001f07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1424 spoolsv.exe          0x001f07f0 PUBLIC                         C:\Users\Public
+    1424 spoolsv.exe          0x001f07f0 SystemDrive                    C:
+    1424 spoolsv.exe          0x001f07f0 SystemRoot                     C:\Windows
+    1424 spoolsv.exe          0x001f07f0 TEMP                           C:\Windows\TEMP
+    1424 spoolsv.exe          0x001f07f0 TMP                            C:\Windows\TEMP
+    1424 spoolsv.exe          0x001f07f0 USERDOMAIN                     SC
+    1424 spoolsv.exe          0x001f07f0 USERNAME                       USERMACHINE01$
+    1424 spoolsv.exe          0x001f07f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    1424 spoolsv.exe          0x001f07f0 windir                         C:\Windows
+    1424 spoolsv.exe          0x001f07f0 windows_tracing_flags          3
+    1424 spoolsv.exe          0x001f07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1460 svchost.exe          0x002407f0 ALLUSERSPROFILE                C:\ProgramData
+    1460 svchost.exe          0x002407f0 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+    1460 svchost.exe          0x002407f0 CommonProgramFiles             C:\Program Files\Common Files
+    1460 svchost.exe          0x002407f0 COMPUTERNAME                   USERMACHINE01
+    1460 svchost.exe          0x002407f0 ComSpec                        C:\Windows\system32\cmd.exe
+    1460 svchost.exe          0x002407f0 FP_NO_HOST_CHECK               NO
+    1460 svchost.exe          0x002407f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+    1460 svchost.exe          0x002407f0 NUMBER_OF_PROCESSORS           4
+    1460 svchost.exe          0x002407f0 OS                             Windows_NT
+    1460 svchost.exe          0x002407f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1460 svchost.exe          0x002407f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1460 svchost.exe          0x002407f0 PROCESSOR_ARCHITECTURE         x86
+    1460 svchost.exe          0x002407f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    1460 svchost.exe          0x002407f0 PROCESSOR_LEVEL                16
+    1460 svchost.exe          0x002407f0 PROCESSOR_REVISION             0203
+    1460 svchost.exe          0x002407f0 ProgramData                    C:\ProgramData
+    1460 svchost.exe          0x002407f0 ProgramFiles                   C:\Program Files
+    1460 svchost.exe          0x002407f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1460 svchost.exe          0x002407f0 PUBLIC                         C:\Users\Public
+    1460 svchost.exe          0x002407f0 SystemDrive                    C:
+    1460 svchost.exe          0x002407f0 SystemRoot                     C:\Windows
+    1460 svchost.exe          0x002407f0 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1460 svchost.exe          0x002407f0 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1460 svchost.exe          0x002407f0 USERDOMAIN                     NT AUTHORITY
+    1460 svchost.exe          0x002407f0 USERNAME                       LOCAL SERVICE
+    1460 svchost.exe          0x002407f0 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+    1460 svchost.exe          0x002407f0 windir                         C:\Windows
+    1460 svchost.exe          0x002407f0 windows_tracing_flags          3
+    1460 svchost.exe          0x002407f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1576 svchost.exe          0x002507f0 ALLUSERSPROFILE                C:\ProgramData
+    1576 svchost.exe          0x002507f0 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+    1576 svchost.exe          0x002507f0 CommonProgramFiles             C:\Program Files\Common Files
+    1576 svchost.exe          0x002507f0 COMPUTERNAME                   USERMACHINE01
+    1576 svchost.exe          0x002507f0 ComSpec                        C:\Windows\system32\cmd.exe
+    1576 svchost.exe          0x002507f0 FP_NO_HOST_CHECK               NO
+    1576 svchost.exe          0x002507f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+    1576 svchost.exe          0x002507f0 NUMBER_OF_PROCESSORS           4
+    1576 svchost.exe          0x002507f0 OS                             Windows_NT
+    1576 svchost.exe          0x002507f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1576 svchost.exe          0x002507f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1576 svchost.exe          0x002507f0 PROCESSOR_ARCHITECTURE         x86
+    1576 svchost.exe          0x002507f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    1576 svchost.exe          0x002507f0 PROCESSOR_LEVEL                16
+    1576 svchost.exe          0x002507f0 PROCESSOR_REVISION             0203
+    1576 svchost.exe          0x002507f0 ProgramData                    C:\ProgramData
+    1576 svchost.exe          0x002507f0 ProgramFiles                   C:\Program Files
+    1576 svchost.exe          0x002507f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1576 svchost.exe          0x002507f0 PUBLIC                         C:\Users\Public
+    1576 svchost.exe          0x002507f0 SystemDrive                    C:
+    1576 svchost.exe          0x002507f0 SystemRoot                     C:\Windows
+    1576 svchost.exe          0x002507f0 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1576 svchost.exe          0x002507f0 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    1576 svchost.exe          0x002507f0 USERDOMAIN                     NT AUTHORITY
+    1576 svchost.exe          0x002507f0 USERNAME                       LOCAL SERVICE
+    1576 svchost.exe          0x002507f0 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+    1576 svchost.exe          0x002507f0 windir                         C:\Windows
+    1576 svchost.exe          0x002507f0 windows_tracing_flags          3
+    1576 svchost.exe          0x002507f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1992 svchost.exe          0x002d07f0 ALLUSERSPROFILE                C:\ProgramData
+    1992 svchost.exe          0x002d07f0 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+    1992 svchost.exe          0x002d07f0 CommonProgramFiles             C:\Program Files\Common Files
+    1992 svchost.exe          0x002d07f0 COMPUTERNAME                   USERMACHINE01
+    1992 svchost.exe          0x002d07f0 ComSpec                        C:\Windows\system32\cmd.exe
+    1992 svchost.exe          0x002d07f0 FP_NO_HOST_CHECK               NO
+    1992 svchost.exe          0x002d07f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+    1992 svchost.exe          0x002d07f0 NUMBER_OF_PROCESSORS           4
+    1992 svchost.exe          0x002d07f0 OS                             Windows_NT
+    1992 svchost.exe          0x002d07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1992 svchost.exe          0x002d07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1992 svchost.exe          0x002d07f0 PROCESSOR_ARCHITECTURE         x86
+    1992 svchost.exe          0x002d07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    1992 svchost.exe          0x002d07f0 PROCESSOR_LEVEL                16
+    1992 svchost.exe          0x002d07f0 PROCESSOR_REVISION             0203
+    1992 svchost.exe          0x002d07f0 ProgramData                    C:\ProgramData
+    1992 svchost.exe          0x002d07f0 ProgramFiles                   C:\Program Files
+    1992 svchost.exe          0x002d07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1992 svchost.exe          0x002d07f0 PUBLIC                         C:\Users\Public
+    1992 svchost.exe          0x002d07f0 SystemDrive                    C:
+    1992 svchost.exe          0x002d07f0 SystemRoot                     C:\Windows
+    1992 svchost.exe          0x002d07f0 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    1992 svchost.exe          0x002d07f0 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    1992 svchost.exe          0x002d07f0 USERDOMAIN                     SC
+    1992 svchost.exe          0x002d07f0 USERNAME                       USERMACHINE01$
+    1992 svchost.exe          0x002d07f0 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+    1992 svchost.exe          0x002d07f0 windir                         C:\Windows
+    1992 svchost.exe          0x002d07f0 windows_tracing_flags          3
+    1992 svchost.exe          0x002d07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2104 taskhost.exe         0x002b07f0 ALLUSERSPROFILE                C:\ProgramData
+    2104 taskhost.exe         0x002b07f0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    2104 taskhost.exe         0x002b07f0 CommonProgramFiles             C:\Program Files\Common Files
+    2104 taskhost.exe         0x002b07f0 COMPUTERNAME                   USERMACHINE01
+    2104 taskhost.exe         0x002b07f0 ComSpec                        C:\Windows\system32\cmd.exe
+    2104 taskhost.exe         0x002b07f0 FP_NO_HOST_CHECK               NO
+    2104 taskhost.exe         0x002b07f0 HOMEDRIVE                      C:
+    2104 taskhost.exe         0x002b07f0 HOMEPATH                       \Users\john.smith
+    2104 taskhost.exe         0x002b07f0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    2104 taskhost.exe         0x002b07f0 LOGONSERVER                    \\SC-DC02
+    2104 taskhost.exe         0x002b07f0 NUMBER_OF_PROCESSORS           4
+    2104 taskhost.exe         0x002b07f0 OS                             Windows_NT
+    2104 taskhost.exe         0x002b07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2104 taskhost.exe         0x002b07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2104 taskhost.exe         0x002b07f0 PROCESSOR_ARCHITECTURE         x86
+    2104 taskhost.exe         0x002b07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2104 taskhost.exe         0x002b07f0 PROCESSOR_LEVEL                16
+    2104 taskhost.exe         0x002b07f0 PROCESSOR_REVISION             0203
+    2104 taskhost.exe         0x002b07f0 ProgramData                    C:\ProgramData
+    2104 taskhost.exe         0x002b07f0 ProgramFiles                   C:\Program Files
+    2104 taskhost.exe         0x002b07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2104 taskhost.exe         0x002b07f0 PUBLIC                         C:\Users\Public
+    2104 taskhost.exe         0x002b07f0 SystemDrive                    C:
+    2104 taskhost.exe         0x002b07f0 SystemRoot                     C:\Windows
+    2104 taskhost.exe         0x002b07f0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2104 taskhost.exe         0x002b07f0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2104 taskhost.exe         0x002b07f0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    2104 taskhost.exe         0x002b07f0 USERDOMAIN                     SC
+    2104 taskhost.exe         0x002b07f0 USERNAME                       john.smith
+    2104 taskhost.exe         0x002b07f0 USERPROFILE                    C:\Users\john.smith
+    2104 taskhost.exe         0x002b07f0 windir                         C:\Windows
+    2104 taskhost.exe         0x002b07f0 windows_tracing_flags          3
+    2104 taskhost.exe         0x002b07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2188 dwm.exe              0x004107f0 ALLUSERSPROFILE                C:\ProgramData
+    2188 dwm.exe              0x004107f0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    2188 dwm.exe              0x004107f0 CommonProgramFiles             C:\Program Files\Common Files
+    2188 dwm.exe              0x004107f0 COMPUTERNAME                   USERMACHINE01
+    2188 dwm.exe              0x004107f0 ComSpec                        C:\Windows\system32\cmd.exe
+    2188 dwm.exe              0x004107f0 FP_NO_HOST_CHECK               NO
+    2188 dwm.exe              0x004107f0 HOMEDRIVE                      C:
+    2188 dwm.exe              0x004107f0 HOMEPATH                       \Users\john.smith
+    2188 dwm.exe              0x004107f0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    2188 dwm.exe              0x004107f0 LOGONSERVER                    \\SC-DC02
+    2188 dwm.exe              0x004107f0 NUMBER_OF_PROCESSORS           4
+    2188 dwm.exe              0x004107f0 OS                             Windows_NT
+    2188 dwm.exe              0x004107f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2188 dwm.exe              0x004107f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2188 dwm.exe              0x004107f0 PROCESSOR_ARCHITECTURE         x86
+    2188 dwm.exe              0x004107f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2188 dwm.exe              0x004107f0 PROCESSOR_LEVEL                16
+    2188 dwm.exe              0x004107f0 PROCESSOR_REVISION             0203
+    2188 dwm.exe              0x004107f0 ProgramData                    C:\ProgramData
+    2188 dwm.exe              0x004107f0 ProgramFiles                   C:\Program Files
+    2188 dwm.exe              0x004107f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2188 dwm.exe              0x004107f0 PUBLIC                         C:\Users\Public
+    2188 dwm.exe              0x004107f0 SystemDrive                    C:
+    2188 dwm.exe              0x004107f0 SystemRoot                     C:\Windows
+    2188 dwm.exe              0x004107f0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2188 dwm.exe              0x004107f0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2188 dwm.exe              0x004107f0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    2188 dwm.exe              0x004107f0 USERDOMAIN                     SC
+    2188 dwm.exe              0x004107f0 USERNAME                       john.smith
+    2188 dwm.exe              0x004107f0 USERPROFILE                    C:\Users\john.smith
+    2188 dwm.exe              0x004107f0 windir                         C:\Windows
+    2188 dwm.exe              0x004107f0 windows_tracing_flags          3
+    2188 dwm.exe              0x004107f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2216 explorer.exe         0x02e68640 ALLUSERSPROFILE                C:\ProgramData
+    2216 explorer.exe         0x02e68640 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    2216 explorer.exe         0x02e68640 CommonProgramFiles             C:\Program Files\Common Files
+    2216 explorer.exe         0x02e68640 COMPUTERNAME                   USERMACHINE01
+    2216 explorer.exe         0x02e68640 ComSpec                        C:\Windows\system32\cmd.exe
+    2216 explorer.exe         0x02e68640 FP_NO_HOST_CHECK               NO
+    2216 explorer.exe         0x02e68640 HOMEDRIVE                      C:
+    2216 explorer.exe         0x02e68640 HOMEPATH                       \Users\john.smith
+    2216 explorer.exe         0x02e68640 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    2216 explorer.exe         0x02e68640 LOGONSERVER                    \\SC-DC02
+    2216 explorer.exe         0x02e68640 NUMBER_OF_PROCESSORS           4
+    2216 explorer.exe         0x02e68640 OS                             Windows_NT
+    2216 explorer.exe         0x02e68640 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2216 explorer.exe         0x02e68640 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2216 explorer.exe         0x02e68640 PROCESSOR_ARCHITECTURE         x86
+    2216 explorer.exe         0x02e68640 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2216 explorer.exe         0x02e68640 PROCESSOR_LEVEL                16
+    2216 explorer.exe         0x02e68640 PROCESSOR_REVISION             0203
+    2216 explorer.exe         0x02e68640 ProgramData                    C:\ProgramData
+    2216 explorer.exe         0x02e68640 ProgramFiles                   C:\Program Files
+    2216 explorer.exe         0x02e68640 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2216 explorer.exe         0x02e68640 PUBLIC                         C:\Users\Public
+    2216 explorer.exe         0x02e68640 SESSIONNAME                    Console
+    2216 explorer.exe         0x02e68640 SystemDrive                    C:
+    2216 explorer.exe         0x02e68640 SystemRoot                     C:\Windows
+    2216 explorer.exe         0x02e68640 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2216 explorer.exe         0x02e68640 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2216 explorer.exe         0x02e68640 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    2216 explorer.exe         0x02e68640 USERDOMAIN                     SC
+    2216 explorer.exe         0x02e68640 USERNAME                       john.smith
+    2216 explorer.exe         0x02e68640 USERPROFILE                    C:\Users\john.smith
+    2216 explorer.exe         0x02e68640 windir                         C:\Windows
+    2216 explorer.exe         0x02e68640 windows_tracing_flags          3
+    2216 explorer.exe         0x02e68640 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2320 msseces.exe          0x0041e060 ALLUSERSPROFILE                C:\ProgramData
+    2320 msseces.exe          0x0041e060 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    2320 msseces.exe          0x0041e060 CommonProgramFiles             C:\Program Files\Common Files
+    2320 msseces.exe          0x0041e060 COMPUTERNAME                   USERMACHINE01
+    2320 msseces.exe          0x0041e060 ComSpec                        C:\Windows\system32\cmd.exe
+    2320 msseces.exe          0x0041e060 FP_NO_HOST_CHECK               NO
+    2320 msseces.exe          0x0041e060 HOMEDRIVE                      C:
+    2320 msseces.exe          0x0041e060 HOMEPATH                       \Users\john.smith
+    2320 msseces.exe          0x0041e060 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    2320 msseces.exe          0x0041e060 LOGONSERVER                    \\SC-DC02
+    2320 msseces.exe          0x0041e060 NUMBER_OF_PROCESSORS           4
+    2320 msseces.exe          0x0041e060 OS                             Windows_NT
+    2320 msseces.exe          0x0041e060 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2320 msseces.exe          0x0041e060 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2320 msseces.exe          0x0041e060 PROCESSOR_ARCHITECTURE         x86
+    2320 msseces.exe          0x0041e060 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2320 msseces.exe          0x0041e060 PROCESSOR_LEVEL                16
+    2320 msseces.exe          0x0041e060 PROCESSOR_REVISION             0203
+    2320 msseces.exe          0x0041e060 ProgramData                    C:\ProgramData
+    2320 msseces.exe          0x0041e060 ProgramFiles                   C:\Program Files
+    2320 msseces.exe          0x0041e060 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2320 msseces.exe          0x0041e060 PUBLIC                         C:\Users\Public
+    2320 msseces.exe          0x0041e060 SESSIONNAME                    Console
+    2320 msseces.exe          0x0041e060 SystemDrive                    C:
+    2320 msseces.exe          0x0041e060 SystemRoot                     C:\Windows
+    2320 msseces.exe          0x0041e060 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2320 msseces.exe          0x0041e060 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2320 msseces.exe          0x0041e060 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    2320 msseces.exe          0x0041e060 USERDOMAIN                     SC
+    2320 msseces.exe          0x0041e060 USERNAME                       john.smith
+    2320 msseces.exe          0x0041e060 USERPROFILE                    C:\Users\john.smith
+    2320 msseces.exe          0x0041e060 windir                         C:\Windows
+    2320 msseces.exe          0x0041e060 windows_tracing_flags          3
+    2320 msseces.exe          0x0041e060 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2496 SearchIndexer.       0x00277440 ALLUSERSPROFILE                C:\ProgramData
+    2496 SearchIndexer.       0x00277440 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    2496 SearchIndexer.       0x00277440 CommonProgramFiles             C:\Program Files\Common Files
+    2496 SearchIndexer.       0x00277440 COMPUTERNAME                   USERMACHINE01
+    2496 SearchIndexer.       0x00277440 ComSpec                        C:\Windows\system32\cmd.exe
+    2496 SearchIndexer.       0x00277440 FP_NO_HOST_CHECK               NO
+    2496 SearchIndexer.       0x00277440 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    2496 SearchIndexer.       0x00277440 NUMBER_OF_PROCESSORS           4
+    2496 SearchIndexer.       0x00277440 OS                             Windows_NT
+    2496 SearchIndexer.       0x00277440 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\system32
+    2496 SearchIndexer.       0x00277440 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2496 SearchIndexer.       0x00277440 PROCESSOR_ARCHITECTURE         x86
+    2496 SearchIndexer.       0x00277440 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2496 SearchIndexer.       0x00277440 PROCESSOR_LEVEL                16
+    2496 SearchIndexer.       0x00277440 PROCESSOR_REVISION             0203
+    2496 SearchIndexer.       0x00277440 ProgramData                    C:\ProgramData
+    2496 SearchIndexer.       0x00277440 ProgramFiles                   C:\Program Files
+    2496 SearchIndexer.       0x00277440 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2496 SearchIndexer.       0x00277440 PUBLIC                         C:\Users\Public
+    2496 SearchIndexer.       0x00277440 SystemDrive                    C:
+    2496 SearchIndexer.       0x00277440 SystemRoot                     C:\Windows
+    2496 SearchIndexer.       0x00277440 TEMP                           C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc
+    2496 SearchIndexer.       0x00277440 TMP                            C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc
+    2496 SearchIndexer.       0x00277440 USERDOMAIN                     SC
+    2496 SearchIndexer.       0x00277440 USERNAME                       USERMACHINE01$
+    2496 SearchIndexer.       0x00277440 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    2496 SearchIndexer.       0x00277440 windir                         C:\Windows
+    2496 SearchIndexer.       0x00277440 windows_tracing_flags          3
+    2496 SearchIndexer.       0x00277440 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2736 sppsvc.exe           0x007307f0 ALLUSERSPROFILE                C:\ProgramData
+    2736 sppsvc.exe           0x007307f0 APPDATA                        C:\Windows\ServiceProfiles\NetworkService\AppData\Roaming
+    2736 sppsvc.exe           0x007307f0 CommonProgramFiles             C:\Program Files\Common Files
+    2736 sppsvc.exe           0x007307f0 COMPUTERNAME                   USERMACHINE01
+    2736 sppsvc.exe           0x007307f0 ComSpec                        C:\Windows\system32\cmd.exe
+    2736 sppsvc.exe           0x007307f0 FP_NO_HOST_CHECK               NO
+    2736 sppsvc.exe           0x007307f0 LOCALAPPDATA                   C:\Windows\ServiceProfiles\NetworkService\AppData\Local
+    2736 sppsvc.exe           0x007307f0 NUMBER_OF_PROCESSORS           4
+    2736 sppsvc.exe           0x007307f0 OS                             Windows_NT
+    2736 sppsvc.exe           0x007307f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2736 sppsvc.exe           0x007307f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2736 sppsvc.exe           0x007307f0 PROCESSOR_ARCHITECTURE         x86
+    2736 sppsvc.exe           0x007307f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2736 sppsvc.exe           0x007307f0 PROCESSOR_LEVEL                16
+    2736 sppsvc.exe           0x007307f0 PROCESSOR_REVISION             0203
+    2736 sppsvc.exe           0x007307f0 ProgramData                    C:\ProgramData
+    2736 sppsvc.exe           0x007307f0 ProgramFiles                   C:\Program Files
+    2736 sppsvc.exe           0x007307f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2736 sppsvc.exe           0x007307f0 PUBLIC                         C:\Users\Public
+    2736 sppsvc.exe           0x007307f0 SystemDrive                    C:
+    2736 sppsvc.exe           0x007307f0 SystemRoot                     C:\Windows
+    2736 sppsvc.exe           0x007307f0 TEMP                           C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    2736 sppsvc.exe           0x007307f0 TMP                            C:\Windows\SERVIC~2\NETWOR~1\AppData\Local\Temp
+    2736 sppsvc.exe           0x007307f0 USERDOMAIN                     SC
+    2736 sppsvc.exe           0x007307f0 USERNAME                       USERMACHINE01$
+    2736 sppsvc.exe           0x007307f0 USERPROFILE                    C:\Windows\ServiceProfiles\NetworkService
+    2736 sppsvc.exe           0x007307f0 windir                         C:\Windows
+    2736 sppsvc.exe           0x007307f0 windows_tracing_flags          3
+    2736 sppsvc.exe           0x007307f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3048 wuauclt.exe          0x002d07f0 ALLUSERSPROFILE                C:\ProgramData
+    3048 wuauclt.exe          0x002d07f0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    3048 wuauclt.exe          0x002d07f0 CommonProgramFiles             C:\Program Files\Common Files
+    3048 wuauclt.exe          0x002d07f0 COMPUTERNAME                   USERMACHINE01
+    3048 wuauclt.exe          0x002d07f0 ComSpec                        C:\Windows\system32\cmd.exe
+    3048 wuauclt.exe          0x002d07f0 FP_NO_HOST_CHECK               NO
+    3048 wuauclt.exe          0x002d07f0 HOMEDRIVE                      C:
+    3048 wuauclt.exe          0x002d07f0 HOMEPATH                       \Users\john.smith
+    3048 wuauclt.exe          0x002d07f0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    3048 wuauclt.exe          0x002d07f0 LOGONSERVER                    \\SC-DC02
+    3048 wuauclt.exe          0x002d07f0 NUMBER_OF_PROCESSORS           4
+    3048 wuauclt.exe          0x002d07f0 OS                             Windows_NT
+    3048 wuauclt.exe          0x002d07f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3048 wuauclt.exe          0x002d07f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3048 wuauclt.exe          0x002d07f0 PROCESSOR_ARCHITECTURE         x86
+    3048 wuauclt.exe          0x002d07f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3048 wuauclt.exe          0x002d07f0 PROCESSOR_LEVEL                16
+    3048 wuauclt.exe          0x002d07f0 PROCESSOR_REVISION             0203
+    3048 wuauclt.exe          0x002d07f0 ProgramData                    C:\ProgramData
+    3048 wuauclt.exe          0x002d07f0 ProgramFiles                   C:\Program Files
+    3048 wuauclt.exe          0x002d07f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3048 wuauclt.exe          0x002d07f0 PUBLIC                         C:\Users\Public
+    3048 wuauclt.exe          0x002d07f0 SystemDrive                    C:
+    3048 wuauclt.exe          0x002d07f0 SystemRoot                     C:\Windows
+    3048 wuauclt.exe          0x002d07f0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3048 wuauclt.exe          0x002d07f0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3048 wuauclt.exe          0x002d07f0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    3048 wuauclt.exe          0x002d07f0 USERDOMAIN                     SC
+    3048 wuauclt.exe          0x002d07f0 USERNAME                       john.smith
+    3048 wuauclt.exe          0x002d07f0 USERPROFILE                    C:\Users\john.smith
+    3048 wuauclt.exe          0x002d07f0 windir                         C:\Windows
+    3048 wuauclt.exe          0x002d07f0 windows_tracing_flags          3
+    3048 wuauclt.exe          0x002d07f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3568 OUTLOOK.EXE          0x063f3ae0 ALLUSERSPROFILE                C:\ProgramData
+    3568 OUTLOOK.EXE          0x063f3ae0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    3568 OUTLOOK.EXE          0x063f3ae0 CommonProgramFiles             C:\Program Files\Common Files
+    3568 OUTLOOK.EXE          0x063f3ae0 COMPUTERNAME                   USERMACHINE01
+    3568 OUTLOOK.EXE          0x063f3ae0 ComSpec                        C:\Windows\system32\cmd.exe
+    3568 OUTLOOK.EXE          0x063f3ae0 FP_NO_HOST_CHECK               NO
+    3568 OUTLOOK.EXE          0x063f3ae0 HOMEDRIVE                      C:
+    3568 OUTLOOK.EXE          0x063f3ae0 HOMEPATH                       \Users\john.smith
+    3568 OUTLOOK.EXE          0x063f3ae0 LANGID                         1033
+    3568 OUTLOOK.EXE          0x063f3ae0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    3568 OUTLOOK.EXE          0x063f3ae0 LOGONSERVER                    \\SC-DC02
+    3568 OUTLOOK.EXE          0x063f3ae0 NUMBER_OF_PROCESSORS           4
+    3568 OUTLOOK.EXE          0x063f3ae0 OS                             Windows_NT
+    3568 OUTLOOK.EXE          0x063f3ae0 Path                           C:\Program Files\Microsoft Office\Office12\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3568 OUTLOOK.EXE          0x063f3ae0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3568 OUTLOOK.EXE          0x063f3ae0 PROCESSOR_ARCHITECTURE         x86
+    3568 OUTLOOK.EXE          0x063f3ae0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3568 OUTLOOK.EXE          0x063f3ae0 PROCESSOR_LEVEL                16
+    3568 OUTLOOK.EXE          0x063f3ae0 PROCESSOR_REVISION             0203
+    3568 OUTLOOK.EXE          0x063f3ae0 ProgramData                    C:\ProgramData
+    3568 OUTLOOK.EXE          0x063f3ae0 ProgramFiles                   C:\Program Files
+    3568 OUTLOOK.EXE          0x063f3ae0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3568 OUTLOOK.EXE          0x063f3ae0 PUBLIC                         C:\Users\Public
+    3568 OUTLOOK.EXE          0x063f3ae0 SESSIONNAME                    Console
+    3568 OUTLOOK.EXE          0x063f3ae0 SystemDrive                    C:
+    3568 OUTLOOK.EXE          0x063f3ae0 SystemRoot                     C:\Windows
+    3568 OUTLOOK.EXE          0x063f3ae0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3568 OUTLOOK.EXE          0x063f3ae0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3568 OUTLOOK.EXE          0x063f3ae0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    3568 OUTLOOK.EXE          0x063f3ae0 USERDOMAIN                     SC
+    3568 OUTLOOK.EXE          0x063f3ae0 USERNAME                       john.smith
+    3568 OUTLOOK.EXE          0x063f3ae0 USERPROFILE                    C:\Users\john.smith
+    3568 OUTLOOK.EXE          0x063f3ae0 WecVersionForRosebud.DF0       3
+    3568 OUTLOOK.EXE          0x063f3ae0 windir                         C:\Windows
+    3568 OUTLOOK.EXE          0x063f3ae0 windows_tracing_flags          3
+    3568 OUTLOOK.EXE          0x063f3ae0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3604 iexplore.exe         0x003607f0 ALLUSERSPROFILE                C:\ProgramData
+    3604 iexplore.exe         0x003607f0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    3604 iexplore.exe         0x003607f0 CommonProgramFiles             C:\Program Files\Common Files
+    3604 iexplore.exe         0x003607f0 COMPUTERNAME                   USERMACHINE01
+    3604 iexplore.exe         0x003607f0 ComSpec                        C:\Windows\system32\cmd.exe
+    3604 iexplore.exe         0x003607f0 FP_NO_HOST_CHECK               NO
+    3604 iexplore.exe         0x003607f0 HOMEDRIVE                      C:
+    3604 iexplore.exe         0x003607f0 HOMEPATH                       \Users\john.smith
+    3604 iexplore.exe         0x003607f0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    3604 iexplore.exe         0x003607f0 LOGONSERVER                    \\SC-DC02
+    3604 iexplore.exe         0x003607f0 NUMBER_OF_PROCESSORS           4
+    3604 iexplore.exe         0x003607f0 OS                             Windows_NT
+    3604 iexplore.exe         0x003607f0 Path                           C:\Program Files\Internet Explorer;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3604 iexplore.exe         0x003607f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3604 iexplore.exe         0x003607f0 PROCESSOR_ARCHITECTURE         x86
+    3604 iexplore.exe         0x003607f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3604 iexplore.exe         0x003607f0 PROCESSOR_LEVEL                16
+    3604 iexplore.exe         0x003607f0 PROCESSOR_REVISION             0203
+    3604 iexplore.exe         0x003607f0 ProgramData                    C:\ProgramData
+    3604 iexplore.exe         0x003607f0 ProgramFiles                   C:\Program Files
+    3604 iexplore.exe         0x003607f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3604 iexplore.exe         0x003607f0 PUBLIC                         C:\Users\Public
+    3604 iexplore.exe         0x003607f0 SESSIONNAME                    Console
+    3604 iexplore.exe         0x003607f0 SystemDrive                    C:
+    3604 iexplore.exe         0x003607f0 SystemRoot                     C:\Windows
+    3604 iexplore.exe         0x003607f0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3604 iexplore.exe         0x003607f0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3604 iexplore.exe         0x003607f0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    3604 iexplore.exe         0x003607f0 USERDOMAIN                     SC
+    3604 iexplore.exe         0x003607f0 USERNAME                       john.smith
+    3604 iexplore.exe         0x003607f0 USERPROFILE                    C:\Users\john.smith
+    3604 iexplore.exe         0x003607f0 windir                         C:\Windows
+    3604 iexplore.exe         0x003607f0 windows_tracing_flags          3
+    3604 iexplore.exe         0x003607f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3892 iexplore.exe         0x078c7008 ALLUSERSPROFILE                C:\ProgramData
+    3892 iexplore.exe         0x078c7008 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    3892 iexplore.exe         0x078c7008 CommonProgramFiles             C:\Program Files\Common Files
+    3892 iexplore.exe         0x078c7008 COMPUTERNAME                   USERMACHINE01
+    3892 iexplore.exe         0x078c7008 ComSpec                        C:\Windows\system32\cmd.exe
+    3892 iexplore.exe         0x078c7008 FP_NO_HOST_CHECK               NO
+    3892 iexplore.exe         0x078c7008 HKCU_S                         \REGISTRY\CUSER\Software
+    3892 iexplore.exe         0x078c7008 HKLM_S                         \REGISTRY\MACHINE\Software
+    3892 iexplore.exe         0x078c7008 HOMEDRIVE                      C:
+    3892 iexplore.exe         0x078c7008 HOMEPATH                       \Users\john.smith
+    3892 iexplore.exe         0x078c7008 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    3892 iexplore.exe         0x078c7008 LOGONSERVER                    \\SC-DC02
+    3892 iexplore.exe         0x078c7008 NUMBER_OF_PROCESSORS           4
+    3892 iexplore.exe         0x078c7008 OS                             Windows_NT
+    3892 iexplore.exe         0x078c7008 Path                           C:\Program Files\Internet Explorer;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3892 iexplore.exe         0x078c7008 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3892 iexplore.exe         0x078c7008 PROCESSOR_ARCHITECTURE         x86
+    3892 iexplore.exe         0x078c7008 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3892 iexplore.exe         0x078c7008 PROCESSOR_LEVEL                16
+    3892 iexplore.exe         0x078c7008 PROCESSOR_REVISION             0203
+    3892 iexplore.exe         0x078c7008 ProgramData                    C:\ProgramData
+    3892 iexplore.exe         0x078c7008 ProgramFiles                   C:\Program Files
+    3892 iexplore.exe         0x078c7008 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3892 iexplore.exe         0x078c7008 PUBLIC                         C:\Users\Public
+    3892 iexplore.exe         0x078c7008 SESSIONNAME                    Console
+    3892 iexplore.exe         0x078c7008 SystemDrive                    C:
+    3892 iexplore.exe         0x078c7008 SystemRoot                     C:\Windows
+    3892 iexplore.exe         0x078c7008 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp\Low
+    3892 iexplore.exe         0x078c7008 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp\Low
+    3892 iexplore.exe         0x078c7008 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    3892 iexplore.exe         0x078c7008 USERDOMAIN                     SC
+    3892 iexplore.exe         0x078c7008 USERNAME                       john.smith
+    3892 iexplore.exe         0x078c7008 USERPROFILE                    C:\Users\john.smith
+    3892 iexplore.exe         0x078c7008 windir                         C:\Windows
+    3892 iexplore.exe         0x078c7008 windows_tracing_flags          3
+    3892 iexplore.exe         0x078c7008 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2000 FlashUtil32_17       0x005707f0 ALLUSERSPROFILE                C:\ProgramData
+    2000 FlashUtil32_17       0x005707f0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    2000 FlashUtil32_17       0x005707f0 CommonProgramFiles             C:\Program Files\Common Files
+    2000 FlashUtil32_17       0x005707f0 COMPUTERNAME                   USERMACHINE01
+    2000 FlashUtil32_17       0x005707f0 ComSpec                        C:\Windows\system32\cmd.exe
+    2000 FlashUtil32_17       0x005707f0 FP_NO_HOST_CHECK               NO
+    2000 FlashUtil32_17       0x005707f0 HOMEDRIVE                      C:
+    2000 FlashUtil32_17       0x005707f0 HOMEPATH                       \Users\john.smith
+    2000 FlashUtil32_17       0x005707f0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    2000 FlashUtil32_17       0x005707f0 LOGONSERVER                    \\SC-DC02
+    2000 FlashUtil32_17       0x005707f0 NUMBER_OF_PROCESSORS           4
+    2000 FlashUtil32_17       0x005707f0 OS                             Windows_NT
+    2000 FlashUtil32_17       0x005707f0 Path                           C:\Program Files\Internet Explorer;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2000 FlashUtil32_17       0x005707f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2000 FlashUtil32_17       0x005707f0 PROCESSOR_ARCHITECTURE         x86
+    2000 FlashUtil32_17       0x005707f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2000 FlashUtil32_17       0x005707f0 PROCESSOR_LEVEL                16
+    2000 FlashUtil32_17       0x005707f0 PROCESSOR_REVISION             0203
+    2000 FlashUtil32_17       0x005707f0 ProgramData                    C:\ProgramData
+    2000 FlashUtil32_17       0x005707f0 ProgramFiles                   C:\Program Files
+    2000 FlashUtil32_17       0x005707f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2000 FlashUtil32_17       0x005707f0 PUBLIC                         C:\Users\Public
+    2000 FlashUtil32_17       0x005707f0 SESSIONNAME                    Console
+    2000 FlashUtil32_17       0x005707f0 SystemDrive                    C:
+    2000 FlashUtil32_17       0x005707f0 SystemRoot                     C:\Windows
+    2000 FlashUtil32_17       0x005707f0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2000 FlashUtil32_17       0x005707f0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    2000 FlashUtil32_17       0x005707f0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    2000 FlashUtil32_17       0x005707f0 USERDOMAIN                     SC
+    2000 FlashUtil32_17       0x005707f0 USERNAME                       john.smith
+    2000 FlashUtil32_17       0x005707f0 USERPROFILE                    C:\Users\john.smith
+    2000 FlashUtil32_17       0x005707f0 windir                         C:\Windows
+    2000 FlashUtil32_17       0x005707f0 windows_tracing_flags          3
+    2000 FlashUtil32_17       0x005707f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3976 notepad.exe          0x002007f0 ALLUSERSPROFILE                C:\ProgramData
+    3976 notepad.exe          0x002007f0 APPDATA                        C:\Users\john.smith\AppData\Roaming
+    3976 notepad.exe          0x002007f0 CommonProgramFiles             C:\Program Files\Common Files
+    3976 notepad.exe          0x002007f0 COMPUTERNAME                   USERMACHINE01
+    3976 notepad.exe          0x002007f0 ComSpec                        C:\Windows\system32\cmd.exe
+    3976 notepad.exe          0x002007f0 FP_NO_HOST_CHECK               NO
+    3976 notepad.exe          0x002007f0 HOMEDRIVE                      C:
+    3976 notepad.exe          0x002007f0 HOMEPATH                       \Users\john.smith
+    3976 notepad.exe          0x002007f0 LOCALAPPDATA                   C:\Users\john.smith\AppData\Local
+    3976 notepad.exe          0x002007f0 LOGONSERVER                    \\SC-DC02
+    3976 notepad.exe          0x002007f0 NUMBER_OF_PROCESSORS           4
+    3976 notepad.exe          0x002007f0 OS                             Windows_NT
+    3976 notepad.exe          0x002007f0 Path                           C:\Program Files\Internet Explorer;;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3976 notepad.exe          0x002007f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3976 notepad.exe          0x002007f0 PROCESSOR_ARCHITECTURE         x86
+    3976 notepad.exe          0x002007f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3976 notepad.exe          0x002007f0 PROCESSOR_LEVEL                16
+    3976 notepad.exe          0x002007f0 PROCESSOR_REVISION             0203
+    3976 notepad.exe          0x002007f0 ProgramData                    C:\ProgramData
+    3976 notepad.exe          0x002007f0 ProgramFiles                   C:\Program Files
+    3976 notepad.exe          0x002007f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3976 notepad.exe          0x002007f0 PUBLIC                         C:\Users\Public
+    3976 notepad.exe          0x002007f0 SESSIONNAME                    Console
+    3976 notepad.exe          0x002007f0 SystemDrive                    C:
+    3976 notepad.exe          0x002007f0 SystemRoot                     C:\Windows
+    3976 notepad.exe          0x002007f0 TEMP                           C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3976 notepad.exe          0x002007f0 TMP                            C:\Users\JOHN.SMITH\AppData\Local\Temp
+    3976 notepad.exe          0x002007f0 USERDNSDOMAIN                  SAMPLE.DOMAIN.COM
+    3976 notepad.exe          0x002007f0 USERDOMAIN                     SC
+    3976 notepad.exe          0x002007f0 USERNAME                       john.smith
+    3976 notepad.exe          0x002007f0 USERPROFILE                    C:\Users\john.smith
+    3976 notepad.exe          0x002007f0 windir                         C:\Windows
+    3976 notepad.exe          0x002007f0 windows_tracing_flags          3
+    3976 notepad.exe          0x002007f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3616 NisSrv.exe           0x0017b410 ALLUSERSPROFILE                C:\ProgramData
+    3616 NisSrv.exe           0x0017b410 APPDATA                        C:\Windows\ServiceProfiles\LocalService\AppData\Roaming
+    3616 NisSrv.exe           0x0017b410 CommonProgramFiles             C:\Program Files\Common Files
+    3616 NisSrv.exe           0x0017b410 COMPUTERNAME                   USERMACHINE01
+    3616 NisSrv.exe           0x0017b410 ComSpec                        C:\Windows\system32\cmd.exe
+    3616 NisSrv.exe           0x0017b410 FP_NO_HOST_CHECK               NO
+    3616 NisSrv.exe           0x0017b410 LOCALAPPDATA                   C:\Windows\ServiceProfiles\LocalService\AppData\Local
+    3616 NisSrv.exe           0x0017b410 NUMBER_OF_PROCESSORS           4
+    3616 NisSrv.exe           0x0017b410 OS                             Windows_NT
+    3616 NisSrv.exe           0x0017b410 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3616 NisSrv.exe           0x0017b410 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3616 NisSrv.exe           0x0017b410 PROCESSOR_ARCHITECTURE         x86
+    3616 NisSrv.exe           0x0017b410 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3616 NisSrv.exe           0x0017b410 PROCESSOR_LEVEL                16
+    3616 NisSrv.exe           0x0017b410 PROCESSOR_REVISION             0203
+    3616 NisSrv.exe           0x0017b410 ProgramData                    C:\ProgramData
+    3616 NisSrv.exe           0x0017b410 ProgramFiles                   C:\Program Files
+    3616 NisSrv.exe           0x0017b410 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3616 NisSrv.exe           0x0017b410 PUBLIC                         C:\Users\Public
+    3616 NisSrv.exe           0x0017b410 SystemDrive                    C:
+    3616 NisSrv.exe           0x0017b410 SystemRoot                     C:\Windows
+    3616 NisSrv.exe           0x0017b410 TEMP                           C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    3616 NisSrv.exe           0x0017b410 TMP                            C:\Windows\SERVIC~2\LOCALS~1\AppData\Local\Temp
+    3616 NisSrv.exe           0x0017b410 USERDOMAIN                     NT AUTHORITY
+    3616 NisSrv.exe           0x0017b410 USERNAME                       LOCAL SERVICE
+    3616 NisSrv.exe           0x0017b410 USERPROFILE                    C:\Windows\ServiceProfiles\LocalService
+    3616 NisSrv.exe           0x0017b410 windir                         C:\Windows
+    3616 NisSrv.exe           0x0017b410 windows_tracing_flags          3
+    3616 NisSrv.exe           0x0017b410 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    4084 cmd.exe              0x002dc808 ALLUSERSPROFILE                C:\ProgramData
+    4084 cmd.exe              0x002dc808 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    4084 cmd.exe              0x002dc808 CommonProgramFiles             C:\Program Files\Common Files
+    4084 cmd.exe              0x002dc808 COMPUTERNAME                   USERMACHINE01
+    4084 cmd.exe              0x002dc808 ComSpec                        C:\Windows\system32\cmd.exe
+    4084 cmd.exe              0x002dc808 FP_NO_HOST_CHECK               NO
+    4084 cmd.exe              0x002dc808 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    4084 cmd.exe              0x002dc808 NUMBER_OF_PROCESSORS           4
+    4084 cmd.exe              0x002dc808 OS                             Windows_NT
+    4084 cmd.exe              0x002dc808 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    4084 cmd.exe              0x002dc808 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    4084 cmd.exe              0x002dc808 PROCESSOR_ARCHITECTURE         x86
+    4084 cmd.exe              0x002dc808 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    4084 cmd.exe              0x002dc808 PROCESSOR_LEVEL                16
+    4084 cmd.exe              0x002dc808 PROCESSOR_REVISION             0203
+    4084 cmd.exe              0x002dc808 ProgramData                    C:\ProgramData
+    4084 cmd.exe              0x002dc808 ProgramFiles                   C:\Program Files
+    4084 cmd.exe              0x002dc808 PROMPT                         $P$G
+    4084 cmd.exe              0x002dc808 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    4084 cmd.exe              0x002dc808 PUBLIC                         C:\Users\Public
+    4084 cmd.exe              0x002dc808 SystemDrive                    C:
+    4084 cmd.exe              0x002dc808 SystemRoot                     C:\Windows
+    4084 cmd.exe              0x002dc808 TEMP                           C:\Windows\TEMP
+    4084 cmd.exe              0x002dc808 TMP                            C:\Windows\TEMP
+    4084 cmd.exe              0x002dc808 USERDOMAIN                     SC
+    4084 cmd.exe              0x002dc808 USERNAME                       USERMACHINE01$
+    4084 cmd.exe              0x002dc808 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    4084 cmd.exe              0x002dc808 windir                         C:\Windows
+    4084 cmd.exe              0x002dc808 windows_tracing_flags          3
+    4084 cmd.exe              0x002dc808 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    4016 conhost.exe          0x002ed750 CommonProgramFiles             C:\Program Files\Common Files
+    4016 conhost.exe          0x002ed750 ComSpec                        C:\Windows\system32\cmd.exe
+    4016 conhost.exe          0x002ed750 FP_NO_HOST_CHECK               NO
+    4016 conhost.exe          0x002ed750 NUMBER_OF_PROCESSORS           4
+    4016 conhost.exe          0x002ed750 OS                             Windows_NT
+    4016 conhost.exe          0x002ed750 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    4016 conhost.exe          0x002ed750 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    4016 conhost.exe          0x002ed750 PROCESSOR_ARCHITECTURE         x86
+    4016 conhost.exe          0x002ed750 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    4016 conhost.exe          0x002ed750 PROCESSOR_LEVEL                16
+    4016 conhost.exe          0x002ed750 PROCESSOR_REVISION             0203
+    4016 conhost.exe          0x002ed750 ProgramFiles                   C:\Program Files
+    4016 conhost.exe          0x002ed750 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    4016 conhost.exe          0x002ed750 SystemDrive                    C:
+    4016 conhost.exe          0x002ed750 SystemRoot                     C:\Windows
+    4016 conhost.exe          0x002ed750 TEMP                           C:\Windows\TEMP
+    4016 conhost.exe          0x002ed750 TMP                            C:\Windows\TEMP
+    4016 conhost.exe          0x002ed750 USERNAME                       SYSTEM
+    4016 conhost.exe          0x002ed750 windir                         C:\Windows
+    4016 conhost.exe          0x002ed750 windows_tracing_flags          3
+    4016 conhost.exe          0x002ed750 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    1900 lexplorer.exe        0x002607f0 ALLUSERSPROFILE                C:\ProgramData
+    1900 lexplorer.exe        0x002607f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    1900 lexplorer.exe        0x002607f0 CommonProgramFiles             C:\Program Files\Common Files
+    1900 lexplorer.exe        0x002607f0 COMPUTERNAME                   USERMACHINE01
+    1900 lexplorer.exe        0x002607f0 ComSpec                        C:\Windows\system32\cmd.exe
+    1900 lexplorer.exe        0x002607f0 FP_NO_HOST_CHECK               NO
+    1900 lexplorer.exe        0x002607f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    1900 lexplorer.exe        0x002607f0 NUMBER_OF_PROCESSORS           4
+    1900 lexplorer.exe        0x002607f0 OS                             Windows_NT
+    1900 lexplorer.exe        0x002607f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    1900 lexplorer.exe        0x002607f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    1900 lexplorer.exe        0x002607f0 PROCESSOR_ARCHITECTURE         x86
+    1900 lexplorer.exe        0x002607f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    1900 lexplorer.exe        0x002607f0 PROCESSOR_LEVEL                16
+    1900 lexplorer.exe        0x002607f0 PROCESSOR_REVISION             0203
+    1900 lexplorer.exe        0x002607f0 ProgramData                    C:\ProgramData
+    1900 lexplorer.exe        0x002607f0 ProgramFiles                   C:\Program Files
+    1900 lexplorer.exe        0x002607f0 PROMPT                         $P$G
+    1900 lexplorer.exe        0x002607f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    1900 lexplorer.exe        0x002607f0 PUBLIC                         C:\Users\Public
+    1900 lexplorer.exe        0x002607f0 SystemDrive                    C:
+    1900 lexplorer.exe        0x002607f0 SystemRoot                     C:\Windows
+    1900 lexplorer.exe        0x002607f0 TEMP                           C:\Windows\TEMP
+    1900 lexplorer.exe        0x002607f0 TMP                            C:\Windows\TEMP
+    1900 lexplorer.exe        0x002607f0 USERDOMAIN                     SC
+    1900 lexplorer.exe        0x002607f0 USERNAME                       USERMACHINE01$
+    1900 lexplorer.exe        0x002607f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    1900 lexplorer.exe        0x002607f0 windir                         C:\Windows
+    1900 lexplorer.exe        0x002607f0 windows_tracing_flags          3
+    1900 lexplorer.exe        0x002607f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2332 regedit.exe          0x002607f0 ALLUSERSPROFILE                C:\ProgramData
+    2332 regedit.exe          0x002607f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    2332 regedit.exe          0x002607f0 CommonProgramFiles             C:\Program Files\Common Files
+    2332 regedit.exe          0x002607f0 COMPUTERNAME                   USERMACHINE01
+    2332 regedit.exe          0x002607f0 ComSpec                        C:\Windows\system32\cmd.exe
+    2332 regedit.exe          0x002607f0 FP_NO_HOST_CHECK               NO
+    2332 regedit.exe          0x002607f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    2332 regedit.exe          0x002607f0 NUMBER_OF_PROCESSORS           4
+    2332 regedit.exe          0x002607f0 OS                             Windows_NT
+    2332 regedit.exe          0x002607f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2332 regedit.exe          0x002607f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2332 regedit.exe          0x002607f0 PROCESSOR_ARCHITECTURE         x86
+    2332 regedit.exe          0x002607f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2332 regedit.exe          0x002607f0 PROCESSOR_LEVEL                16
+    2332 regedit.exe          0x002607f0 PROCESSOR_REVISION             0203
+    2332 regedit.exe          0x002607f0 ProgramData                    C:\ProgramData
+    2332 regedit.exe          0x002607f0 ProgramFiles                   C:\Program Files
+    2332 regedit.exe          0x002607f0 PROMPT                         $P$G
+    2332 regedit.exe          0x002607f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2332 regedit.exe          0x002607f0 PUBLIC                         C:\Users\Public
+    2332 regedit.exe          0x002607f0 SystemDrive                    C:
+    2332 regedit.exe          0x002607f0 SystemRoot                     C:\Windows
+    2332 regedit.exe          0x002607f0 TEMP                           C:\Windows\TEMP
+    2332 regedit.exe          0x002607f0 TMP                            C:\Windows\TEMP
+    2332 regedit.exe          0x002607f0 USERDOMAIN                     SC
+    2332 regedit.exe          0x002607f0 USERNAME                       USERMACHINE01$
+    2332 regedit.exe          0x002607f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    2332 regedit.exe          0x002607f0 windir                         C:\Windows
+    2332 regedit.exe          0x002607f0 windows_tracing_flags          3
+    2332 regedit.exe          0x002607f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3724 UI0Detect.exe        0x002107f0 ALLUSERSPROFILE                C:\ProgramData
+    3724 UI0Detect.exe        0x002107f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    3724 UI0Detect.exe        0x002107f0 CommonProgramFiles             C:\Program Files\Common Files
+    3724 UI0Detect.exe        0x002107f0 COMPUTERNAME                   USERMACHINE01
+    3724 UI0Detect.exe        0x002107f0 ComSpec                        C:\Windows\system32\cmd.exe
+    3724 UI0Detect.exe        0x002107f0 FP_NO_HOST_CHECK               NO
+    3724 UI0Detect.exe        0x002107f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    3724 UI0Detect.exe        0x002107f0 NUMBER_OF_PROCESSORS           4
+    3724 UI0Detect.exe        0x002107f0 OS                             Windows_NT
+    3724 UI0Detect.exe        0x002107f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3724 UI0Detect.exe        0x002107f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3724 UI0Detect.exe        0x002107f0 PROCESSOR_ARCHITECTURE         x86
+    3724 UI0Detect.exe        0x002107f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3724 UI0Detect.exe        0x002107f0 PROCESSOR_LEVEL                16
+    3724 UI0Detect.exe        0x002107f0 PROCESSOR_REVISION             0203
+    3724 UI0Detect.exe        0x002107f0 ProgramData                    C:\ProgramData
+    3724 UI0Detect.exe        0x002107f0 ProgramFiles                   C:\Program Files
+    3724 UI0Detect.exe        0x002107f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3724 UI0Detect.exe        0x002107f0 PUBLIC                         C:\Users\Public
+    3724 UI0Detect.exe        0x002107f0 SystemDrive                    C:
+    3724 UI0Detect.exe        0x002107f0 SystemRoot                     C:\Windows
+    3724 UI0Detect.exe        0x002107f0 TEMP                           C:\Windows\TEMP
+    3724 UI0Detect.exe        0x002107f0 TMP                            C:\Windows\TEMP
+    3724 UI0Detect.exe        0x002107f0 USERDOMAIN                     SC
+    3724 UI0Detect.exe        0x002107f0 USERNAME                       USERMACHINE01$
+    3724 UI0Detect.exe        0x002107f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    3724 UI0Detect.exe        0x002107f0 windir                         C:\Windows
+    3724 UI0Detect.exe        0x002107f0 windows_tracing_flags          3
+    3724 UI0Detect.exe        0x002107f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    3496 UI0Detect.exe        0x001507f0 ALLUSERSPROFILE                C:\ProgramData
+    3496 UI0Detect.exe        0x001507f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    3496 UI0Detect.exe        0x001507f0 CommonProgramFiles             C:\Program Files\Common Files
+    3496 UI0Detect.exe        0x001507f0 COMPUTERNAME                   USERMACHINE01
+    3496 UI0Detect.exe        0x001507f0 ComSpec                        C:\Windows\system32\cmd.exe
+    3496 UI0Detect.exe        0x001507f0 FP_NO_HOST_CHECK               NO
+    3496 UI0Detect.exe        0x001507f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    3496 UI0Detect.exe        0x001507f0 NUMBER_OF_PROCESSORS           4
+    3496 UI0Detect.exe        0x001507f0 OS                             Windows_NT
+    3496 UI0Detect.exe        0x001507f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    3496 UI0Detect.exe        0x001507f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    3496 UI0Detect.exe        0x001507f0 PROCESSOR_ARCHITECTURE         x86
+    3496 UI0Detect.exe        0x001507f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    3496 UI0Detect.exe        0x001507f0 PROCESSOR_LEVEL                16
+    3496 UI0Detect.exe        0x001507f0 PROCESSOR_REVISION             0203
+    3496 UI0Detect.exe        0x001507f0 ProgramData                    C:\ProgramData
+    3496 UI0Detect.exe        0x001507f0 ProgramFiles                   C:\Program Files
+    3496 UI0Detect.exe        0x001507f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    3496 UI0Detect.exe        0x001507f0 PUBLIC                         C:\Users\Public
+    3496 UI0Detect.exe        0x001507f0 SystemDrive                    C:
+    3496 UI0Detect.exe        0x001507f0 SystemRoot                     C:\Windows
+    3496 UI0Detect.exe        0x001507f0 TEMP                           C:\Windows\TEMP
+    3496 UI0Detect.exe        0x001507f0 TMP                            C:\Windows\TEMP
+    3496 UI0Detect.exe        0x001507f0 USERDOMAIN                     SC
+    3496 UI0Detect.exe        0x001507f0 USERNAME                       USERMACHINE01$
+    3496 UI0Detect.exe        0x001507f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    3496 UI0Detect.exe        0x001507f0 windir                         C:\Windows
+    3496 UI0Detect.exe        0x001507f0 windows_tracing_flags          3
+    3496 UI0Detect.exe        0x001507f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2548 updater.exe          0x00294ef8 ALLUSERSPROFILE                C:\ProgramData
+    2548 updater.exe          0x00294ef8 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    2548 updater.exe          0x00294ef8 CommonProgramFiles             C:\Program Files\Common Files
+    2548 updater.exe          0x00294ef8 COMPUTERNAME                   USERMACHINE01
+    2548 updater.exe          0x00294ef8 ComSpec                        C:\Windows\system32\cmd.exe
+    2548 updater.exe          0x00294ef8 FP_NO_HOST_CHECK               NO
+    2548 updater.exe          0x00294ef8 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    2548 updater.exe          0x00294ef8 NUMBER_OF_PROCESSORS           4
+    2548 updater.exe          0x00294ef8 OS                             Windows_NT
+    2548 updater.exe          0x00294ef8 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2548 updater.exe          0x00294ef8 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2548 updater.exe          0x00294ef8 PROCESSOR_ARCHITECTURE         x86
+    2548 updater.exe          0x00294ef8 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2548 updater.exe          0x00294ef8 PROCESSOR_LEVEL                16
+    2548 updater.exe          0x00294ef8 PROCESSOR_REVISION             0203
+    2548 updater.exe          0x00294ef8 ProgramData                    C:\ProgramData
+    2548 updater.exe          0x00294ef8 ProgramFiles                   C:\Program Files
+    2548 updater.exe          0x00294ef8 PROMPT                         $P$G
+    2548 updater.exe          0x00294ef8 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2548 updater.exe          0x00294ef8 PUBLIC                         C:\Users\Public
+    2548 updater.exe          0x00294ef8 SystemDrive                    C:
+    2548 updater.exe          0x00294ef8 SystemRoot                     C:\Windows
+    2548 updater.exe          0x00294ef8 TEMP                           C:\Windows\TEMP
+    2548 updater.exe          0x00294ef8 TMP                            C:\Windows\TEMP
+    2548 updater.exe          0x00294ef8 USERDOMAIN                     SC
+    2548 updater.exe          0x00294ef8 USERNAME                       USERMACHINE01$
+    2548 updater.exe          0x00294ef8 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    2548 updater.exe          0x00294ef8 windir                         C:\Windows
+    2548 updater.exe          0x00294ef8 windows_tracing_flags          3
+    2548 updater.exe          0x00294ef8 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log
+    2548 updater.exe          0x00294ef8 __COMPAT_LAYER                 VistaSetup
+    2068 conh0st.exe          0x002307f0 ALLUSERSPROFILE                C:\ProgramData
+    2068 conh0st.exe          0x002307f0 APPDATA                        C:\Windows\system32\config\systemprofile\AppData\Roaming
+    2068 conh0st.exe          0x002307f0 CommonProgramFiles             C:\Program Files\Common Files
+    2068 conh0st.exe          0x002307f0 COMPUTERNAME                   USERMACHINE01
+    2068 conh0st.exe          0x002307f0 ComSpec                        C:\Windows\system32\cmd.exe
+    2068 conh0st.exe          0x002307f0 FP_NO_HOST_CHECK               NO
+    2068 conh0st.exe          0x002307f0 LOCALAPPDATA                   C:\Windows\system32\config\systemprofile\AppData\Local
+    2068 conh0st.exe          0x002307f0 NUMBER_OF_PROCESSORS           4
+    2068 conh0st.exe          0x002307f0 OS                             Windows_NT
+    2068 conh0st.exe          0x002307f0 Path                           C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\
+    2068 conh0st.exe          0x002307f0 PATHEXT                        .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+    2068 conh0st.exe          0x002307f0 PROCESSOR_ARCHITECTURE         x86
+    2068 conh0st.exe          0x002307f0 PROCESSOR_IDENTIFIER           x86 Family 16 Model 2 Stepping 3, AuthenticAMD
+    2068 conh0st.exe          0x002307f0 PROCESSOR_LEVEL                16
+    2068 conh0st.exe          0x002307f0 PROCESSOR_REVISION             0203
+    2068 conh0st.exe          0x002307f0 ProgramData                    C:\ProgramData
+    2068 conh0st.exe          0x002307f0 ProgramFiles                   C:\Program Files
+    2068 conh0st.exe          0x002307f0 PROMPT                         $P$G
+    2068 conh0st.exe          0x002307f0 PSModulePath                   C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+    2068 conh0st.exe          0x002307f0 PUBLIC                         C:\Users\Public
+    2068 conh0st.exe          0x002307f0 SystemDrive                    C:
+    2068 conh0st.exe          0x002307f0 SystemRoot                     C:\Windows
+    2068 conh0st.exe          0x002307f0 TEMP                           C:\Windows\TEMP
+    2068 conh0st.exe          0x002307f0 TMP                            C:\Windows\TEMP
+    2068 conh0st.exe          0x002307f0 USERDOMAIN                     SC
+    2068 conh0st.exe          0x002307f0 USERNAME                       USERMACHINE01$
+    2068 conh0st.exe          0x002307f0 USERPROFILE                    C:\Windows\system32\config\systemprofile
+    2068 conh0st.exe          0x002307f0 windir                         C:\Windows
+    2068 conh0st.exe          0x002307f0 windows_tracing_flags          3
+    2068 conh0st.exe          0x002307f0 windows_tracing_logfile        C:\BVTBin\Tests\installpackage\csilogfile.log

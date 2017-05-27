@@ -1,0 +1,74 @@
+Offset(P)          Proto    Local Address                  Foreign Address      State            Pid      Owner          Created
+0xbe6574e8         UDPv4    0.0.0.0:3702                   *:*                                   1576     svchost.exe    2015-06-25 12:18:21 UTC+0000
+0xbe6574e8         UDPv6    :::3702                        *:*                                   1576     svchost.exe    2015-06-25 12:18:21 UTC+0000
+0xbe65a0b8         UDPv4    0.0.0.0:65087                  *:*                                   1576     svchost.exe    2015-06-25 12:18:18 UTC+0000
+0xbe65be50         UDPv4    0.0.0.0:65088                  *:*                                   1576     svchost.exe    2015-06-25 12:18:18 UTC+0000
+0xbe65be50         UDPv6    :::65088                       *:*                                   1576     svchost.exe    2015-06-25 12:18:18 UTC+0000
+0xbe6a7e58         UDPv4    0.0.0.0:0                      *:*                                   1992     svchost.exe    2015-06-25 12:18:19 UTC+0000
+0xbe6ad1b0         UDPv4    0.0.0.0:0                      *:*                                   1992     svchost.exe    2015-06-25 12:18:19 UTC+0000
+0xbe6ad1b0         UDPv6    :::0                           *:*                                   1992     svchost.exe    2015-06-25 12:18:19 UTC+0000
+0xbe6af4e8         UDPv4    0.0.0.0:0                      *:*                                   960      svchost.exe    2015-06-25 12:18:19 UTC+0000
+0xbe6af6d8         UDPv4    0.0.0.0:0                      *:*                                   960      svchost.exe    2015-06-25 12:18:19 UTC+0000
+0xbe6af6d8         UDPv6    :::0                           *:*                                   960      svchost.exe    2015-06-25 12:18:19 UTC+0000
+0xbe6df008         UDPv4    127.0.0.1:56729                *:*                                   988      svchost.exe    2015-06-25 12:18:22 UTC+0000
+0xbe6f7570         UDPv4    0.0.0.0:3702                   *:*                                   1576     svchost.exe    2015-06-25 12:18:21 UTC+0000
+0xbe6fa848         UDPv4    0.0.0.0:3702                   *:*                                   1576     svchost.exe    2015-06-25 12:18:21 UTC+0000
+0xbe6fa848         UDPv6    :::3702                        *:*                                   1576     svchost.exe    2015-06-25 12:18:21 UTC+0000
+0xbe706608         UDPv4    0.0.0.0:3702                   *:*                                   1576     svchost.exe    2015-06-25 12:18:21 UTC+0000
+0xbe722f50         UDPv4    0.0.0.0:123                    *:*                                   960      svchost.exe    2015-06-25 12:18:22 UTC+0000
+0xbe8cc0e0         UDPv4    0.0.0.0:123                    *:*                                   960      svchost.exe    2015-06-25 12:18:22 UTC+0000
+0xbe8cc0e0         UDPv6    :::123                         *:*                                   960      svchost.exe    2015-06-25 12:18:22 UTC+0000
+0xbe92af50         UDPv4    0.0.0.0:0                      *:*                                   1240     svchost.exe    2015-06-25 12:18:16 UTC+0000
+0xbe92af50         UDPv6    :::0                           *:*                                   1240     svchost.exe    2015-06-25 12:18:16 UTC+0000
+0xbe9b80e0         UDPv4    0.0.0.0:0                      *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe9b80e0         UDPv6    :::0                           *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe9b8250         UDPv4    0.0.0.0:0                      *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe9ce618         UDPv4    127.0.0.1:63095                *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe9d8168         UDPv4    127.0.0.1:63097                *:*                                   1240     svchost.exe    2015-06-25 12:18:18 UTC+0000
+0xbe9f5620         UDPv4    0.0.0.0:0                      *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe9f5620         UDPv6    :::0                           *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe9f5a10         UDPv4    0.0.0.0:0                      *:*                                   512      lsass.exe      2015-06-25 12:18:18 UTC+0000
+0xbe618008         TCPv4    0.0.0.0:3389                   0.0.0.0:0            LISTENING        1240     svchost.exe    
+0xbe62c7a8         TCPv4    0.0.0.0:49170                  0.0.0.0:0            LISTENING        504      services.exe   
+0xbe650af8         TCPv4    0.0.0.0:5357                   0.0.0.0:0            LISTENING        4        System         
+0xbe650af8         TCPv6    :::5357                        :::0                 LISTENING        4        System         
+0xbe69ad38         TCPv4    0.0.0.0:445                    0.0.0.0:0            LISTENING        4        System         
+0xbe69ad38         TCPv6    :::445                         :::0                 LISTENING        4        System         
+0xbe81b4e8         TCPv4    172.37.2.2:139                 0.0.0.0:0            LISTENING        4        System         
+0xbe849088         TCPv4    0.0.0.0:135                    0.0.0.0:0            LISTENING        696      svchost.exe    
+0xbe849088         TCPv6    :::135                         :::0                 LISTENING        696      svchost.exe    
+0xbe84b700         TCPv4    0.0.0.0:135                    0.0.0.0:0            LISTENING        696      svchost.exe    
+0xbe851b90         TCPv4    0.0.0.0:49152                  0.0.0.0:0            LISTENING        416      wininit.exe    
+0xbe855bc8         TCPv4    0.0.0.0:49152                  0.0.0.0:0            LISTENING        416      wininit.exe    
+0xbe855bc8         TCPv6    :::49152                       :::0                 LISTENING        416      wininit.exe    
+0xbe895870         TCPv4    0.0.0.0:49188                  0.0.0.0:0            LISTENING        512      lsass.exe      
+0xbe898408         TCPv4    0.0.0.0:49153                  0.0.0.0:0            LISTENING        884      svchost.exe    
+0xbe898408         TCPv6    :::49153                       :::0                 LISTENING        884      svchost.exe    
+0xbe898848         TCPv4    0.0.0.0:49153                  0.0.0.0:0            LISTENING        884      svchost.exe    
+0xbe94ca80         TCPv4    0.0.0.0:49154                  0.0.0.0:0            LISTENING        988      svchost.exe    
+0xbe94fb58         TCPv4    0.0.0.0:49154                  0.0.0.0:0            LISTENING        988      svchost.exe    
+0xbe94fb58         TCPv6    :::49154                       :::0                 LISTENING        988      svchost.exe    
+0xbe976008         TCPv4    0.0.0.0:49170                  0.0.0.0:0            LISTENING        504      services.exe   
+0xbe976008         TCPv6    :::49170                       :::0                 LISTENING        504      services.exe   
+0xbe9d0d08         TCPv4    0.0.0.0:3389                   0.0.0.0:0            LISTENING        1240     svchost.exe    
+0xbe9d0d08         TCPv6    :::3389                        :::0                 LISTENING        1240     svchost.exe    
+0xbe9d21f8         TCPv4    0.0.0.0:49188                  0.0.0.0:0            LISTENING        512      lsass.exe      
+0xbe9d21f8         TCPv6    :::49188                       :::0                 LISTENING        512      lsass.exe      
+0xbebf6260         UDPv4    172.37.2.2:138                 *:*                                   4        System         2015-06-25 12:18:13 UTC+0000
+0xbebf9e30         UDPv4    172.37.2.2:137                 *:*                                   4        System         2015-06-25 12:18:13 UTC+0000
+0xbef7b008         TCPv4    172.37.2.2:51812               185.83.100.103:80    ESTABLISHED      -1                      
+0xbf42ea18         UDPv4    172.37.2.2:63759               *:*                                   1576     svchost.exe    2015-06-25 12:23:18 UTC+0000
+0xbf457ee8         UDPv4    172.37.2.2:1900                *:*                                   1576     svchost.exe    2015-06-25 12:23:18 UTC+0000
+0xbf45ec50         UDPv4    127.0.0.1:63760                *:*                                   1576     svchost.exe    2015-06-25 12:23:18 UTC+0000
+0xbf6649b8         UDPv4    127.0.0.1:1900                 *:*                                   1576     svchost.exe    2015-06-25 12:23:18 UTC+0000
+0xbf696d48         UDPv4    0.0.0.0:5355                   *:*                                   1240     svchost.exe    2015-06-26 14:30:52 UTC+0000
+0xbf7238b0         UDPv6    ::1:1900                       *:*                                   1576     svchost.exe    2015-06-25 12:23:18 UTC+0000
+0xbf7492f0         UDPv6    ::1:63758                      *:*                                   1576     svchost.exe    2015-06-25 12:23:18 UTC+0000
+0xbf774f50         UDPv4    127.0.0.1:54674                *:*                                   3568     OUTLOOK.EXE    2015-06-25 12:29:06 UTC+0000
+0xbf4ea008         TCPv4    172.37.2.2:49939               172.37.1.4:445       ESTABLISHED      -1                      
+0xbf6fe008         TCPv4    172.37.2.2:49494               172.34.2.7:9106      ESTABLISHED      -1                      
+0xbf704df8         TCPv4    172.37.2.2:49498               172.34.2.7:9203      ESTABLISHED      -1                      
+0xbf717df8         TCPv4    172.37.2.2:49506               172.34.2.7:9203      ESTABLISHED      -1                      
+0xbf9f7b80         TCPv4    172.37.2.2:51869               175.229.50.106:443   ESTABLISHED      -1                      
+0xbfc76d40         TCPv4    172.37.2.2:51811               185.83.100.103:6024  ESTABLISHED      -1                      
+0xbfdcf608         TCPv4    172.37.2.2:51843               185.83.100.103:443   ESTABLISHED      -1                      

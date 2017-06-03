@@ -1,10 +1,11 @@
 #!/usr/bin/python
 
 #==============
-# volCombine.py v1.2
-# 28 May 2017
+# volCombine.py v1.3
+# 3 June 2017
 # Feed the script plaintext output from pslist, envars, psscan, and malfind (Volatility modules)
 # Requires pslist.txt at a minimum
+# Orange lines mean a new link was found in psscan that wasn't in pslist
 # Usage:  volCombine.py pslist.txt
 # Usage:  volCombine.py pslist.txt envars.txt psscan.txt malfind.txt
 # TODO:  dedup code usage, add classes
@@ -62,21 +63,20 @@ def makeGraph():
 	if psli:
 		with open(psli,'r') as f:
 			k = ''
-			v = ''
+			name = ''
 			for i,line in enumerate(f):
 				if i >= 2:
 					l = line.split()
 					name = l[1]
 					pid = l[2]
 					ppid = l[3]
-					listy.append('"%s" -> "%s" [color="black"];\n' % (ppid, pid))
+					listy.append('"%s" -> "%s";\n' % (ppid, pid))
 					k = pid
-					v = name
 				if k not in dicty.keys():
 					dicty.setdefault(k,[])
-					dicty[k].append(v)
+					dicty[k].append(name)
 				elif k in dicty.keys():
-					dicty[k].append(v)
+					dicty[k].append(name)
 		f.close()
 	else:
 		print
@@ -105,17 +105,33 @@ def makeGraph():
 	if pssc:
 		with open(pssc, 'r') as f:
 			pid = ''
-			t = ''
+			st = ''
+			et = ''
 			for i, line in enumerate(f):
 				if i >= 2:
 					l = line.split()
 					pid = l[2]
-					t = str(l[5]+' '+l[6]+' '+l[7][:3])
+					ppid = l[3]
+					st = str('Start: '+l[5]+' '+l[6]+' '+l[7][:3])
+					if len(l) > 8: # if there is an exit time, save the time as et
+						et = str('Exit:  '+l[8]+' '+l[9]+' '+l[10][:3])
+					slist = str('"%s" -> "%s";\n' % (ppid, pid))
+					try:
+						if slist not in listy:
+							listy.append('"%s" -> "%s" [color="orange", penwidth=3];\n' % (ppid, pid)) # append a new link if found in psscan but not in pslist
+					except:
+						pass
 					if pid not in dicty.keys():
 						dicty.setdefault(pid,[])
-						dicty[pid].append(t)
+						if not et:
+							dicty[pid].append(st)
+						else:
+							dicty[pid].extend((st, et)) # double parentheses because extend takes one argument
 					elif pid in dicty.keys():
-						dicty[pid].append(t)
+						if not et:
+							dicty[pid].append(st)
+						else:
+							dicty[pid].extend((st, et))
 		f.close()
 
 	if malf:
@@ -151,11 +167,16 @@ def makeGraph():
 				val.remove('o')
 		d[k]=val
 
-	for k in dicty.keys():
-		if len(k) == 0:
+	for k,v in dicty.items():
+		if len(k) == 0: # delete blank keys that make empty nodes on the graph
 			del dicty[k]
 		if k in d.keys():
 			dicty[k].append(d[k][0])
+		for val in v:
+			if len(val) == 0: # remove blank values
+				v.remove(val)
+
+	d = {} # clean dict
 
 	with open(dotFile,'w') as o:
 		o.write('digraph output {\nnode[shape = Mrecord];\nfontsize=16;\nnodesep=1.5;\nranksep=1;\nrankdir=LR;\n')
@@ -166,30 +187,28 @@ def makeGraph():
 				stringy = ''
 				orange = str('style="filled", fillcolor="orange"')
 				red = str('style="filled", fillcolor="red"')
-				if 'o' in dicty[k]:
-					dicty[k].remove('o')
-					if len(dicty[k]) == 1:
-						stringy = '"%s" [label="%s\n%s", %s]' % (k, k, dicty[k][0], orange)
-					elif len(dicty[k]) == 2:
-						stringy = '"%s" [label="%s\n%s|%s", %s]' % (k, k, dicty[k][0], dicty[k][1], orange)
-					elif len(dicty[k]) == 3:
-						stringy = '"%s" [label="%s\n%s|%s|%s", %s]' % (k, k, dicty[k][0], dicty[k][1], dicty[k][2], orange)
-				elif 'r' in dicty[k]:
-					dicty[k].remove('r')
-					if len(dicty[k]) == 1:
-						stringy = '"%s" [label="%s\n%s", %s]' % (k, k, dicty[k][0], red)
-					elif len(dicty[k]) == 2:
-						stringy = '"%s" [label="%s\n%s|%s", %s]' % (k, k, dicty[k][0], dicty[k][1], red)
-					elif len(dicty[k]) == 3:
-						stringy = '"%s" [label="%s\n%s|%s|%s", %s]' % (k, k, dicty[k][0], dicty[k][1], dicty[k][2], red)
+				if 'o' in dicty[k] or 'r' in dicty[k]:
+					col = ''
+					v = ''
+					if 'o' in dicty[k]:
+						dicty[k].remove('o')
+						col = orange
+						v = str('|'.join(dicty[k]))
+					elif 'r' in dicty[k]:
+						dicty[k].remove('r')
+						col = red
+						v = str('|'.join(dicty[k]))
+					if len(dicty[k]) == 0:
+						stringy = '"%s" [label="%s", %s]' % (k, k, col)
+					elif len(dicty[k]) >= 1:
+						stringy = '"%s" [label="%s|%s", %s]' % (k, k, v, col)
 				else:
-					if len(dicty[k]) == 1:
-						stringy = '"%s" [label="%s\n%s"]' % (k, k, dicty[k][0])
-					elif len(dicty[k]) == 2:
-						stringy = '"%s" [label="%s\n%s|%s"]' % (k, k, dicty[k][0], dicty[k][1])
-					elif len(dicty[k]) == 3:
-						stringy = '"%s" [label="%s\n%s|%s|%s"]' % (k, k, dicty[k][0], dicty[k][1], dicty[k][2])
-				o.write(stringy)
+					v = str('|'.join(dicty[k]))
+					if len(dicty[k]) == 0:
+						stringy = '"%s" [label="%s"]' % (k, k)
+					elif len(dicty[k]) >= 1:
+						stringy = '"%s" [label="%s|%s"]' % (k, k, v)
+				o.write(stringy+'\n')
 		o.write('\n}')
 	o.close()
 

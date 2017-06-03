@@ -5,7 +5,11 @@
 # 3 June 2017
 # Feed the script plaintext output from pslist, envars, psscan, and malfind (Volatility modules)
 # Requires pslist.txt at a minimum
-# Orange lines mean a new link was found in psscan that wasn't in pslist
+# Blue lines mean a new link was found in psscan that wasn't in pslist
+# Cyan nodes mean that process was found in psscan that wasn't in pslist
+# Orange nodes mean the process was found in malfind without MZ (4d5a)
+# Red nodes mean the process was found in malfind with MZ
+# Processing order (not impacted by the order these files are presented to the script):  pslist --> psscan --> envars --> malfind
 # Usage:  volCombine.py pslist.txt
 # Usage:  volCombine.py pslist.txt envars.txt psscan.txt malfind.txt
 # TODO:  dedup code usage, add classes
@@ -84,6 +88,38 @@ def makeGraph():
 		print
 		sys.exit(1)
 
+	if pssc:
+		with open(pssc, 'r') as f:
+			pid = ''
+			st = ''
+			et = ''
+			for i, line in enumerate(f):
+				if i >= 2:
+					l = line.split()
+					name = l[1]
+					pid = l[2]
+					ppid = l[3]
+					st = str('Start: '+l[5]+' '+l[6]+' '+l[7][:3])
+					if len(l) > 8: # if there is an exit time, save the time as et
+						et = str('Exit:  '+l[8]+' '+l[9]+' '+l[10][:3])
+					slist = str('"%s" -> "%s";\n' % (ppid, pid))
+					try:
+						if slist not in listy:
+							listy.append('"%s" -> "%s" [color="blue", penwidth=3];\n' % (ppid, pid)) # append a new link if found in psscan but not in pslist
+					except:
+						pass
+					if pid not in dicty.keys():
+						dicty.setdefault(pid,[])
+						if not et:
+							dicty[pid].extend((name, st, 'b'))  # add name and orange flag if the pid is only found in psscan
+						else:
+							dicty[pid].extend((name, st, et, 'b')) # double parentheses because extend takes one argument
+					elif pid in dicty.keys():
+						if not et:
+							dicty[pid].append(st)
+						else:
+							dicty[pid].extend((st, et))
+		f.close()
 	if enva:
 		with open(enva, 'r') as f:
 			u = re.compile('USERNAME')
@@ -100,38 +136,6 @@ def makeGraph():
 							dicty[pid].append(username)
 						elif pid in dicty.keys():
 							dicty[pid].append(username)
-		f.close()
-
-	if pssc:
-		with open(pssc, 'r') as f:
-			pid = ''
-			st = ''
-			et = ''
-			for i, line in enumerate(f):
-				if i >= 2:
-					l = line.split()
-					pid = l[2]
-					ppid = l[3]
-					st = str('Start: '+l[5]+' '+l[6]+' '+l[7][:3])
-					if len(l) > 8: # if there is an exit time, save the time as et
-						et = str('Exit:  '+l[8]+' '+l[9]+' '+l[10][:3])
-					slist = str('"%s" -> "%s";\n' % (ppid, pid))
-					try:
-						if slist not in listy:
-							listy.append('"%s" -> "%s" [color="orange", penwidth=3];\n' % (ppid, pid)) # append a new link if found in psscan but not in pslist
-					except:
-						pass
-					if pid not in dicty.keys():
-						dicty.setdefault(pid,[])
-						if not et:
-							dicty[pid].append(st)
-						else:
-							dicty[pid].extend((st, et)) # double parentheses because extend takes one argument
-					elif pid in dicty.keys():
-						if not et:
-							dicty[pid].append(st)
-						else:
-							dicty[pid].extend((st, et))
 		f.close()
 
 	if malf:
@@ -185,12 +189,17 @@ def makeGraph():
 		if dicty:
 			for k in dicty.keys():
 				stringy = ''
-				orange = str('style="filled", fillcolor="orange"')
-				red = str('style="filled", fillcolor="red"')
-				if 'o' in dicty[k] or 'r' in dicty[k]:
+				blue = str('style="filled", fillcolor="cyan"') # process found in psscan but not pslist
+				orange = str('style="filled", fillcolor="orange"') # process in malfind without MZ
+				red = str('style="filled", fillcolor="red"') # process in malfind with MZ
+				if 'b' in dicty[k] or 'o' in dicty[k] or 'r' in dicty[k]:
 					col = ''
 					v = ''
-					if 'o' in dicty[k]:
+					if 'b' in dicty[k]:
+						dicty[k].remove('b')
+						col = blue
+						v = str('|'.join(dicty[k]))
+					elif 'o' in dicty[k]:
 						dicty[k].remove('o')
 						col = orange
 						v = str('|'.join(dicty[k]))

@@ -18,4 +18,4 @@ Force-directed graph generator for Volatility visualizations
 - Maps pid/ppid connections with process names.  Same as volCombine.py with only pslist.txt input.
 - Usage:  <b><i>volPslist.py pslist.txt</i></b>
 
-![volCombine.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496525899.png)
+![volCombine.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496526732.png)

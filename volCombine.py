@@ -1,14 +1,15 @@
 #!/usr/bin/python
 
 #==============
-# volCombine.py v1.3
-# 3 June 2017
+# volCombine.py v1.3.1
+# 4 June 2017
 # Feed the script plaintext output from pslist, envars, psscan, and malfind (Volatility modules)
 # Requires pslist.txt at a minimum
-# Blue lines mean a new link was found in psscan that wasn't in pslist
-# Cyan nodes mean that process was found in psscan that wasn't in pslist
-# Orange nodes mean the process was found in malfind without MZ (4d5a)
-# Red nodes mean the process was found in malfind with MZ
+# Using both pslist and psscan helps to QUICKLY identify deltas between the two files (unlinked EPROCESS trees are not in pslist)
+# --Blue lines mean a new link was found in psscan that wasn't in pslist
+# --Cyan nodes mean that process was found in psscan that wasn't in pslist (malfind colors will override this, link line remains blue)
+# ----Orange nodes mean the process was found in malfind without MZ (4d5a)
+# ----Red nodes mean the process was found in malfind with MZ
 # Processing order (not impacted by the order these files are presented to the script):  pslist --> psscan --> envars --> malfind
 # Usage:  volCombine.py pslist.txt
 # Usage:  volCombine.py pslist.txt envars.txt psscan.txt malfind.txt
@@ -120,6 +121,7 @@ def makeGraph():
 						else:
 							dicty[pid].extend((st, et))
 		f.close()
+
 	if enva:
 		with open(enva, 'r') as f:
 			u = re.compile('USERNAME')
@@ -153,7 +155,7 @@ def makeGraph():
 							v = str('r')
 						else:
 							v = str('o')
-						if pid not in d.keys():
+						if pid not in d.keys(): # side dictionary to manage escalation from orange to red
 							d.setdefault(pid, [])
 							d[pid].append(v)
 						elif pid in d.keys():
@@ -163,24 +165,26 @@ def makeGraph():
 		f.close()
 
 	for k in d.keys():
-		if len(k) == 0:
+		if len(k) == 0: # delete blank keys
 			del d[k]
-		val = list(set(d[k]))
-		if len(val) >= 2:
+		val = list(set(d[k])) # make a uniq value list
+		if len(val) >= 2: # if 'o' and 'r' are both in the value list
 			if 'o' in val:
-				val.remove('o')
+				val.remove('o') # delete 'o', meaning the node will be prioritized red
 		d[k]=val
 
 	for k,v in dicty.items():
 		if len(k) == 0: # delete blank keys that make empty nodes on the graph
 			del dicty[k]
-		if k in d.keys():
-			dicty[k].append(d[k][0])
+		if k in d.keys(): # check node for malfind colorization
+			dicty[k].append(d[k][0]) # add the malfind node color to the pid (key) values in the main dictionary
 		for val in v:
 			if len(val) == 0: # remove blank values
 				v.remove(val)
-
-	d = {} # clean dict
+		if 'b' in v and 'o' in v: # prioritize orange over blue (psscan-identified link lines will still be blue though)
+			v.remove('b')
+		if 'b' in v and 'r' in v: # prioritize red over blue
+			v.remove('b')
 
 	with open(dotFile,'w') as o:
 		o.write('digraph output {\nnode[shape = Mrecord];\nfontsize=16;\nnodesep=1.5;\nranksep=1;\nrankdir=LR;\n')

@@ -221,7 +221,7 @@ def makeGraph():
 						stringy = '"%s" [label="%s"]' % (k, k)
 					elif len(dicty[k]) >= 1:
 						stringy = '"%s" [label="%s|%s"]' % (k, k, v)
-				o.write(stringy+'\n')
+				o.write(stringy+';\n')
 		o.write('\n}')
 	o.close()
 

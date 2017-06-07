@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 #==============
-# volCombine.py v1.3.1
-# 4 June 2017
+# volCombine.py v1.3.2
+# 7 June 2017
 # Feed the script plaintext output from pslist, envars, psscan, and malfind (Volatility modules)
 # Requires pslist.txt at a minimum
 # Using both pslist and psscan helps to QUICKLY identify deltas between the two files (unlinked EPROCESS trees are not in pslist)
@@ -67,9 +67,9 @@ def makeGraph():
 
 	if psli:
 		with open(psli,'r') as f:
-			k = ''
-			name = ''
 			for i,line in enumerate(f):
+				k = ''
+				name = ''
 				if i >= 2:
 					l = line.split()
 					name = l[1]
@@ -91,17 +91,18 @@ def makeGraph():
 
 	if pssc:
 		with open(pssc, 'r') as f:
-			pid = ''
-			st = ''
-			et = ''
 			for i, line in enumerate(f):
+				pid = ''
+				st = ''
+				et = ''
 				if i >= 2:
 					l = line.split()
 					name = l[1]
 					pid = l[2]
 					ppid = l[3]
-					st = str('Start: '+l[5]+' '+l[6]+' '+l[7][:3])
-					if len(l) > 8: # if there is an exit time, save the time as et
+					if len(l) > 5: # if there is a start time
+						st = str('Start: '+l[5]+' '+l[6]+' '+l[7][:3])
+					if len(l) > 8: # if there is an exit time
 						et = str('Exit:  '+l[8]+' '+l[9]+' '+l[10][:3])
 					slist = str('"%s" -> "%s";\n' % (ppid, pid))
 					try:
@@ -125,9 +126,9 @@ def makeGraph():
 	if enva:
 		with open(enva, 'r') as f:
 			u = re.compile('USERNAME')
-			pid = ''
-			username = ''
 			for i,line in enumerate(f):
+				pid = ''
+				username = ''
 				if i >= 2:
 					if u.findall(line):
 						l = line.split()

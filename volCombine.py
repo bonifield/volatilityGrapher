@@ -133,7 +133,7 @@ def makeGraph():
 					if u.findall(line):
 						l = line.split()
 						pid = l[0]
-						username = l[4]
+						username = ' '.join(l[4:])
 						if pid not in dicty.keys():
 							dicty.setdefault(pid,[])
 							dicty[pid].append(username)

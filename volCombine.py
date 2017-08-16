@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 #==============
-# volCombine.py v1.3.2
-# 7 June 2017
+# volCombine.py v1.3.3
+# 16 Aug 2017
 # Feed the script plaintext output from pslist, envars, psscan, and malfind (Volatility modules)
 # Requires pslist.txt at a minimum
 # Using both pslist and psscan helps to QUICKLY identify deltas between the two files (unlinked EPROCESS trees are not in pslist)
@@ -14,6 +14,7 @@
 # Usage:  volCombine.py pslist.txt
 # Usage:  volCombine.py pslist.txt envars.txt psscan.txt malfind.txt
 # TODO:  dedup code usage, add classes
+# - v1.3.3 - added funky() to remove some reptitive lines
 #==============
 
 import os,re,sys,time
@@ -59,11 +60,21 @@ dotOutputFile  = str(dotFile.replace('.dot','.png'))
 
 #==============
 
+listy = []
+dicty = {}
+d = {}
+
+#==============
+
+def funky(d,k,v):
+	if k not in d.keys():
+		d.setdefault(k,[])
+		d[k].append(v)
+	elif k in d.keys():
+		d[k].append(v)	
+
 def makeGraph():
 	print 'Making combined graph.  This may take a second...'
-	listy = []
-	dicty = {}
-	d = {}
 
 	if psli:
 		with open(psli,'r') as f:
@@ -77,11 +88,7 @@ def makeGraph():
 					ppid = l[3]
 					listy.append('"%s" -> "%s";\n' % (ppid, pid))
 					k = pid
-				if k not in dicty.keys():
-					dicty.setdefault(k,[])
-					dicty[k].append(name)
-				elif k in dicty.keys():
-					dicty[k].append(name)
+				funky(dicty,k,name)
 		f.close()
 	else:
 		print
@@ -134,11 +141,7 @@ def makeGraph():
 						l = line.split()
 						pid = l[0]
 						username = ' '.join(l[4:])
-						if pid not in dicty.keys():
-							dicty.setdefault(pid,[])
-							dicty[pid].append(username)
-						elif pid in dicty.keys():
-							dicty[pid].append(username)
+						funky(dicty,pid,username)
 		f.close()
 
 	if malf:
@@ -156,11 +159,7 @@ def makeGraph():
 							v = str('r')
 						else:
 							v = str('o')
-						if pid not in d.keys(): # side dictionary to manage escalation from orange to red
-							d.setdefault(pid, [])
-							d[pid].append(v)
-						elif pid in d.keys():
-							d[pid].append(v)
+						funky(d,pid,v)
 					except:
 						pass
 		f.close()

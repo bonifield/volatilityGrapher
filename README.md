@@ -10,7 +10,7 @@ Force-directed graph generator for Volatility visualizations
   - red nodes mean the process was in malfind, with MZ (4d5a)
 - Maps pid/ppid connections with process names and usernames.  Combines pslist data with envars, psscan, and/or malfind (if presented as arguments) into one graph.
 - Colorization is purely based on what's found in psscan.txt and malfind.txt, though future node highlighting is on the list
-- TODO:  dedup code, classes, colorization of nodes off suspect branches
+- TODO:  dedup code, classes, colorization of nodes off suspect branches (or subgroup suspect branches altogether)
 
 ## Usage
 - Simple (pslist.txt is <i>required</i>):  ```volCombine.py pslist.txt```

@@ -14,8 +14,5 @@ Force-directed graph generator for Volatility visualizations
 - Colorization is purely based on what's found in psscan.txt and malfind.txt, though future node highlighting is on the list
 - TODO:  dedup code, classes, colorization of nodes off suspect branches
 
-<b>volPslist.py</b>
-- Maps pid/ppid connections with process names.  Same as volCombine.py with only pslist.txt input.
-- Usage:  <b><i>volPslist.py pslist.txt</i></b>
-
+Example output:
 ![volCombine.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496526732.png)

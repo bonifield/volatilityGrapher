@@ -1,6 +1,7 @@
 # volatilityVis
 Force-directed graph generator for Volatility visualizations
 - Requires Python 2.6+, GraphViz, and Volatility
+- v1.3.4 - Now supports psscan output which may have spaces in the "Name" field (tested on Volatility profile Win10x64_17134)
 
 ## Workflow
 - collect memory --> run Volatility modules --> send module output through volCombine

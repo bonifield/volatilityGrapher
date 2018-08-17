@@ -1,8 +1,8 @@
 #!/usr/bin/python
 
 #==============
-# volCombine.py v1.3.3
-# 16 Aug 2017
+# volCombine.py v1.3.4
+# last update:  17 Aug 2018
 # Feed the script plaintext output from pslist, envars, psscan, and malfind (Volatility modules)
 # Requires pslist.txt at a minimum
 # Using both pslist and psscan helps to QUICKLY identify deltas between the two files (unlinked EPROCESS trees are not in pslist)
@@ -14,7 +14,8 @@
 # Usage:  volCombine.py pslist.txt
 # Usage:  volCombine.py pslist.txt envars.txt psscan.txt malfind.txt
 # TODO:  dedup code usage, add classes
-# - v1.3.3 - added funky() to remove some reptitive lines
+# - v1.3.3 (16 Aug 2017) - added funky() to remove some reptitive lines
+# - v1.3.4 (17 Aug 2018, yes 2018) - added psscan_fixer() for Volatility profile Win10x64_17134
 #==============
 
 import os,re,sys,time
@@ -71,7 +72,11 @@ def funky(d,k,v):
 		d.setdefault(k,[])
 		d[k].append(v)
 	elif k in d.keys():
-		d[k].append(v)	
+		d[k].append(v)
+
+def psscan_fixer(p):
+	h = [p.index(i) for i in p if re.findall('0x[A-Za-z0-9]{16}', i)]
+	return [p[0], ' '.join(p[h[1]+1:]), p[h[1]-2], p[h[1]-1], p[h[1]]]
 
 def makeGraph():
 	print 'Making combined graph.  This may take a second...'
@@ -103,7 +108,9 @@ def makeGraph():
 				st = ''
 				et = ''
 				if i >= 2:
-					l = line.split()
+					# for use with Volatility profile Win10x64_17134
+					l = psscan_fixer(line.split())
+					#l = line.split()
 					name = l[1]
 					pid = l[2]
 					ppid = l[3]

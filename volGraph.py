@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
 #==============
-# volCombine.py v1.5.1
-# last update:  08 Sep 2018
+# volGraph.py v1.5.1
+# Previously known as volCombine.py (last plain output-processing version:  v1.3.4)
+# Last Update:  08 Sep 2018
 # Feed this script JSON output from the following Volatility modules:  pslist, psscan, malfind, envars, netscan
 # Using both pslist and psscan helps to QUICKLY identify deltas between the two files
 # --Blue lines mean a new link was found in psscan that wasn't in pslist
@@ -11,8 +12,8 @@
 # ----Red nodes mean the process was found via malfind with MZ
 # Processing order (not impacted by the order these files are presented to the script):  pslist --> psscan --> malfind --> envars --> netscan
 # PSLIST NOT REQUIRED BUT DEFINITELY RECOMMENDED TO BASELINE THE COLORS
-# Usage:  volCombine.py pslist.txt
-# Usage:  volCombine.py pslist.txt envars.txt psscan.txt malfind.txt netscan.txt
+# Usage:  volGraph.py pslist.txt
+# Usage:  volGraph.py pslist.txt envars.txt psscan.txt malfind.txt netscan.txt
 # TODO:  dedup code, psxview ingest, additional module support (apihooks, etc)
 # - v1.3.3 (16 Aug 2017) - added funky() to remove some reptitive lines
 # - v1.3.4 (17 Aug 2018, yes 2018) - added psscan_fixer() for Volatility profile Win10x64_17134
@@ -35,10 +36,10 @@ enva = None
 nets = None
 epoch = str(int(time.time()))
 
-dotFile = str('volCombine-{}.dot'.format(epoch))
-dotImage = str('volCombine-{}-dot.png'.format(epoch))
-circoImage = str('volCombine-{}-circo.png'.format(epoch))
-neatoImage = str('volCombine-{}-neato.png'.format(epoch))
+dotFile = str('volGraph-{}.dot'.format(epoch))
+dotImage = str('volGraph-{}-dot.png'.format(epoch))
+circoImage = str('volGraph-{}-circo.png'.format(epoch))
+neatoImage = str('volGraph-{}-neato.png'.format(epoch))
 
 #==============
 
@@ -51,7 +52,8 @@ def opener(o):
 	except Exception as e:
 #		print(str(e))
 		print('ERROR:  All inputs must be JSON.')
-		print('Supports the following Volatility module output in JSON format:  pslist, psscan, malfind, envars, netscan (be careful with netscan)')
+		print('USAGE:  volGraph.py some-module-output.json')
+		print('Supports the following Volatility module output in JSON format:  pslist, psscan, malfind, envars, netscan (note, netscan can make nodes fairly large)')
 		print('Use the following switches with Volatility:  "--output=json [module] --output-file=[module]-[youroutputname].json"')
 		sys.exit(1)
 

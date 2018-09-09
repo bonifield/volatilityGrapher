@@ -10,7 +10,7 @@ Force-directed graph generator for Volatility visualizations
 ## Workflow
 - collect memory --> run Volatility modules specifying JSON output --> send module output through volGraph.py
 
-## volCombine.py Overview
+## volGraph.py Overview
 - blue lines and cyan nodes mean the relationship was found in psscan, but not pslist
 - orange nodes mean the process was in malfind, without MZ
 - red nodes mean the process was in malfind, with MZ (4d5a)

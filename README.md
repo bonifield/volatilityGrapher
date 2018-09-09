@@ -11,15 +11,15 @@ Force-directed graph generator for Volatility visualizations
 - collect memory --> run Volatility modules specifying JSON output --> send module output through volCombine
 
 ## volCombine.py Overview
-	- blue lines and cyan nodes mean the relationship was found in psscan, but not pslist
-	- orange nodes mean the process was in malfind, without MZ
-	- red nodes mean the process was in malfind, with MZ (4d5a)
-	- Colorization is purely based on what's found in psscan.txt and malfind.txt
+- blue lines and cyan nodes mean the relationship was found in psscan, but not pslist
+- orange nodes mean the process was in malfind, without MZ
+- red nodes mean the process was in malfind, with MZ (4d5a)
+- Colorization is purely based on what's found in psscan.txt and malfind.txt
 
 ## TODO:  
-	- dedup code, better classes, subgrouping
-	- add cmdline support
-	- add psxview support
+- dedup code, better classes, subgrouping
+- add cmdline support
+- add psxview support
 
 ## To get JSON output from Volatility:
 Add these switches: ```--output=json [module] --output-file=[module]-[youroutputname].json```

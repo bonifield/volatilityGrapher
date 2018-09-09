@@ -28,7 +28,7 @@ Add these switches: ```--output=json [module] --output-file=[module]-[youroutput
 ### The module name for each JSON file MUST be somewhere in the filename!
 - Basic with only pslist ```volCombine.py pslist.json```
 - With supported inputs:  ```volCombine.py pslist.json envars.json psscan.json malfind.json netscan.json```
-- Easy mode, use the provided Bash script with an image and a known profile to generate all of the necessary files:  ```ezvol.sh somefile.dmp profile```
+- Easy mode, use the provided Bash script with a memory capture and a Volatility profile to generate all of the necessary files:  ```ezvol.sh somefile.dmp profile```
 
 ## Example output:
 ![volCombine.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496526732.png)

@@ -2,21 +2,19 @@
 Force-directed graph generator for Volatility visualizations
 - Requires Python 3, GraphViz, and Volatility
 - v1.5.1 (08 Sep 2018)
-		- totally re-written for Python 3
-		- absolutely requires JSON input from Volatility
-		- supports Volatility's netscan module
-		- no longer requires pslist; everything will be blue if you don't include it though
+	- totally re-written for Python 3
+	- absolutely requires JSON input from Volatility
+	- supports Volatility's netscan module
+	- no longer requires pslist; everything will be blue if you don't include it though
 
 ## Workflow
 - collect memory --> run Volatility modules specifying JSON output --> send module output through volCombine
 
 ## volCombine.py Overview
-	- blue lines mean the link was found in psscan, but not pslist
-	- cyan nodes mean the process was found in psscan, but not pslist (future: mangle in psxview)
+	- blue lines and cyan nodes mean the relationship was found in psscan, but not pslist
 	- orange nodes mean the process was in malfind, without MZ
 	- red nodes mean the process was in malfind, with MZ (4d5a)
-	- Maps pid/ppid connections with process names and usernames.  Combines pslist data with envars, psscan, malfind, and/or netscan (if presented as arguments) into one graph.
-	- Colorization is purely based on what's found in psscan.txt and malfind.txt, though future node highlighting is on the list
+	- Colorization is purely based on what's found in psscan.txt and malfind.txt
 
 ## TODO:  
 	- dedup code, better classes, subgrouping
@@ -25,9 +23,9 @@ Force-directed graph generator for Volatility visualizations
 
 ## To get JSON output from Volatility:
 Add these switches: ```--output=json [module] --output-file=[module]-[youroutputname].json```
-The module name MUST be somewhere in the filename you are sending to the script!
 
 ## Usage
+### The module name for each JSON file MUST be somewhere in the filename!
 - Basic with only pslist ```volCombine.py pslist.json```
 - With supported inputs:  ```volCombine.py pslist.json envars.json psscan.json malfind.json netscan.json```
 

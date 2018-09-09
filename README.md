@@ -6,6 +6,7 @@ Force-directed graph generator for Volatility visualizations
 	- absolutely requires JSON input from Volatility
 	- supports Volatility's netscan module
 	- no longer requires pslist; everything will be blue if you don't include it though
+	- ezVolGraph.sh is a quick-and-dirty way to automate the JSON and graph-making process (see below under Usage)
 
 ## Workflow
 - collect memory --> run Volatility modules specifying JSON output --> send module output through volGraph.py

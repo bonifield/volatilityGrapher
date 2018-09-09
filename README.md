@@ -31,4 +31,8 @@ Add these switches: ```--output=json [module] --output-file=[module]-[youroutput
 - Easy mode, use the provided Bash script with a memory capture and a Volatility profile to generate all of the necessary files:  ```ezVolGraph.sh somefile.dmp profile```
 
 ## Example output:
-![volGraph.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496526732.png)
+### Powershell Empire:
+![volGraph.py](https://github.com/bonifield/volatilityGrapher/blob/master/sampledata/volGraph-1536519806-dot.png)
+### Metasploit Shenanigans:
+![volGraph.py](https://github.com/bonifield/volatilityGrapher/blob/master/sampledata/combine-1496526732.png)
+

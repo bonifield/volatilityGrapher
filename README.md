@@ -1,4 +1,4 @@
-# volatilityVis
+# volatilityGrapher
 Force-directed graph generator for Volatility visualizations
 - Requires Python 3, GraphViz, and Volatility
 - v1.5.1 (08 Sep 2018)
@@ -8,7 +8,7 @@ Force-directed graph generator for Volatility visualizations
 	- no longer requires pslist; everything will be blue if you don't include it though
 
 ## Workflow
-- collect memory --> run Volatility modules specifying JSON output --> send module output through volCombine
+- collect memory --> run Volatility modules specifying JSON output --> send module output through volGraph.py
 
 ## volCombine.py Overview
 - blue lines and cyan nodes mean the relationship was found in psscan, but not pslist
@@ -26,9 +26,9 @@ Add these switches: ```--output=json [module] --output-file=[module]-[youroutput
 
 ## Usage
 ### The module name for each JSON file MUST be somewhere in the filename!
-- Basic with only pslist ```volCombine.py pslist.json```
-- With supported inputs:  ```volCombine.py pslist.json envars.json psscan.json malfind.json netscan.json```
-- Easy mode, use the provided Bash script with a memory capture and a Volatility profile to generate all of the necessary files:  ```ezvol.sh somefile.dmp profile```
+- Basic with only pslist ```volGraph.py pslist.json```
+- With supported inputs:  ```volGraph.py pslist.json envars.json psscan.json malfind.json netscan.json```
+- Easy mode, use the provided Bash script with a memory capture and a Volatility profile to generate all of the necessary files:  ```ezVolGraph.sh somefile.dmp profile```
 
 ## Example output:
-![volCombine.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496526732.png)
+![volGraph.py](https://github.com/bonifield/volatilityVis/blob/master/combine-1496526732.png)

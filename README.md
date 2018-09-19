@@ -15,7 +15,7 @@ Force-directed graph generator for Volatility visualizations
 - blue lines and cyan nodes mean the relationship was found in psscan, but not pslist
 - orange nodes mean the process was in malfind, without MZ
 - red nodes mean the process was in malfind, with MZ (4d5a)
-- Colorization is purely based on what's found in psscan.txt and malfind.txt
+- Colorization is purely based on what's found in psscan.json and malfind.json
 
 ## TODO:  
 - dedup code, better classes, subgrouping

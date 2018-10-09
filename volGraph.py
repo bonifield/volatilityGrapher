@@ -180,10 +180,10 @@ class Combiner(object):
 				pass
 			x = None
 			if 'fillcolor' in v.keys():
-				x = '"{}" [style="filled", fillcolor="{}", label="{}"]'.format(str(k), str(v.pop('fillcolor')), str('|'.join([': '.join(t) for t in [(str(key),str(val)) for key,val in v.items()]])))
+				x = '"{}" [style="filled", fillcolor="{}", label="{}"]'.format(str(k), str(v.pop('fillcolor')), str(str(k)+'|'+'|'.join([': '.join(t) for t in [(str(key),str(val)) for key,val in v.items()]])))
 			else:
 				try:
-					x = '"{}" [label="{}"]'.format(str(k), str('|'.join([': '.join(t) for t in [(str(key),str(val)) for key,val in v.items()]])))
+					x = '"{}" [label="{}"]'.format(str(k), str(str(k)+'|'+'|'.join([': '.join(t) for t in [(str(key),str(val)) for key,val in v.items()]])))
 				except Exception as e:
 #					x = str(e)
 					x = '"{}" [label="{}"]'.format(str(k), str(e))

@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 #==============
-# volGraph.py v1.5.1
+# volGraph.py v1.5.2
+# Last Update:  09 Oct 2018
 # Previously known as volCombine.py (last plain output-processing version:  v1.3.4)
-# Last Update:  08 Sep 2018
 # Feed this script JSON output from the following Volatility modules:  pslist, psscan, malfind, envars, netscan
 # Using both pslist and psscan helps to QUICKLY identify deltas between the two files
 # --Blue lines mean a new link was found in psscan that wasn't in pslist
@@ -22,6 +22,7 @@
 #			- added a main class to handle the heavy lifting, make future object calls easier
 #			- cleaner ingest, LOTS of code deduplication (more to come)
 #			- NO LONGER REQUIRES PSLIST; omitting pslist will make all of the lines and nodes blue though :)
+# - v1.5.2 (09 Oct 2018) - fixed a major bug where PIDs would not display on the nodes...  now they do!
 #==============
 
 import json,os,re,sys,time

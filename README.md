@@ -1,12 +1,13 @@
 # volatilityGrapher
 Force-directed graph generator for Volatility visualizations
 - Requires Python 3, GraphViz, and Volatility
-- v1.5.1 (08 Sep 2018)
+- v1.5.2 (09 Oct 2018)
 	- totally re-written for Python 3
 	- absolutely requires JSON input from Volatility
 	- supports Volatility's netscan module
 	- no longer requires pslist; everything will be blue if you don't include it though
 	- ezVolGraph.sh is a quick-and-dirty way to automate the JSON and graph-making process (see below under Usage)
+	- fixed a bug where PIDs wouldn't display properly on nodes
 
 ## Workflow
 - collect memory --> run Volatility modules specifying JSON output --> send module output through volGraph.py

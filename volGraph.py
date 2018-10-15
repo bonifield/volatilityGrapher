@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
 #==============
-# volGraph.py v1.5.2
-# Last Update:  09 Oct 2018
+# volGraph.py v1.5.3
+# Last Update:  15 Oct 2018
 # Previously known as volCombine.py (last plain output-processing version:  v1.3.4)
 # Feed this script JSON output from the following Volatility modules:  pslist, psscan, malfind, envars, netscan
 # Using both pslist and psscan helps to QUICKLY identify deltas between the two files
@@ -10,19 +10,20 @@
 # --Cyan nodes mean that process was found in psscan that wasn't in pslist (malfind colors will override this, connection line remains blue)
 # ----Orange nodes mean the process was found via malfind without MZ (4d5a)
 # ----Red nodes mean the process was found via malfind with MZ
-# Processing order (not impacted by the order these files are presented to the script):  pslist --> psscan --> malfind --> envars --> netscan
+# Processing order (not impacted by the order these files are presented to the script):  pslist --> psscan --> malfind --> envars --> netscan --> cmdline
 # PSLIST NOT REQUIRED BUT DEFINITELY RECOMMENDED TO BASELINE THE COLORS
-# Usage:  volGraph.py pslist.txt
-# Usage:  volGraph.py pslist.txt envars.txt psscan.txt malfind.txt netscan.txt
+# Usage:  volGraph.py pslist.json
+# Usage:  volGraph.py pslist.json envars.json psscan.json malfind.json netscan.json cmdline.json
 # TODO:  dedup code, psxview ingest, additional module support (apihooks, etc)
 # - v1.3.3 (16 Aug 2017) - added funky() to remove some reptitive lines
-# - v1.3.4 (17 Aug 2018, yes 2018) - added psscan_fixer() for Volatility profile Win10x64_17134
+# - v1.3.4 (17 Aug 2018, yes 2018) - added psscan_fixer() for Win10x Volatility profiles (note - now deprecated)
 # - v1.5.1 (08 Sep 2018) - re-wrote in Python 3, with a hard requirement for JSON input (Volatilty switches: --output=json [module] --output-file=[module]-[youroutputname].json)
 #			- added netscan support
 #			- added a main class to handle the heavy lifting, make future object calls easier
 #			- cleaner ingest, LOTS of code deduplication (more to come)
 #			- NO LONGER REQUIRES PSLIST; omitting pslist will make all of the lines and nodes blue though :)
 # - v1.5.2 (09 Oct 2018) - fixed a major bug where PIDs would not display on the nodes...  now they do!
+# - v1.5.3 (15 Oct 2018) - added cmdline support, fixed this description
 #==============
 
 import json,os,re,sys,time
@@ -35,6 +36,7 @@ pssc = None
 malf = None
 enva = None
 nets = None
+cmdl = None
 epoch = str(int(time.time()))
 
 dotFile = str('volGraph-{}.dot'.format(epoch))
@@ -48,18 +50,18 @@ def opener(o):
 	try:
 		with open(o, 'r') as f:
 			data = json.load(f)
-			f.close()
-			return data
+		f.close()
+		return data
 	except Exception as e:
-#		print(str(e))
+		print(str(e))
 		print('ERROR:  All inputs must be JSON.')
-		print('USAGE:  volGraph.py some-module-output.json')
-		print('Supports the following Volatility module output in JSON format:  pslist, psscan, malfind, envars, netscan (note, netscan can make nodes fairly large)')
+		print('USAGE:  volGraph.py some-module-output.json some-other-module.json yet-another-module.json etc...')
+		print('Supports the following Volatility module output in JSON format:  pslist, psscan, malfind, envars, netscan, cmdline')
 		print('Use the following switches with Volatility:  "--output=json [module] --output-file=[module]-[youroutputname].json"')
 		sys.exit(1)
 
 if len(syslist) > 1:
-	for i in syslist:
+	for i in syslist[1:]:
 		if re.search('pslist', i):
 			psli = opener(i)
 		if re.search('psscan', i):
@@ -70,8 +72,10 @@ if len(syslist) > 1:
 			enva = opener(i)
 		if re.search('netsc', i):
 			nets = opener(i)
+		if re.search('cmdline', i):
+			cmdl = opener(i)
 
-dicty = {"pslist":psli,"psscan":pssc,"malfind":malf,"envars":enva,"netscan":nets}
+dicty = {"pslist":psli,"psscan":pssc,"malfind":malf,"envars":enva,"netscan":nets,"cmdline":cmdl}
 
 #==============
 
@@ -101,6 +105,10 @@ class Combiner(object):
 			self.netscan = idict["netscan"]["rows"]
 		else:
 			self.netscan = None
+		if idict["cmdline"]:
+			self.cmdline = idict["cmdline"]["rows"]
+		else:
+			self.cmdline = None
 
 	def dgen(self, d,k,v):
 		""" worker function to generate the main combined dictionary as directed by dworker """
@@ -142,6 +150,11 @@ class Combiner(object):
 		if self.netscan:
 			for i in self.netscan:
 				self.dgen(self.d, i[5], {"proto":i[1], "localaddr":i[2], "foreignaddr":i[3], "state":i[4], "conn-owner":i[6], "conn-created":i[7]})
+		if self.cmdline:
+			for i in self.cmdline:
+				if len(i[2]) > 0:
+					cfix = i[2].replace("\"", "").replace("\\", "\\\\").replace("{", "\{").replace("}", "\}")
+					self.dgen(self.d, i[1], {"cmdline":cfix})
 
 	def data(self):
 		""" creates and returns the dictionary """
@@ -193,7 +206,7 @@ class Combiner(object):
 				yield(x)
 
 	def __repr__(self):
-		return str('pslist: {}\tpsscan: {}\tmalfind:{}\tenvars: {}\tnetscan: {}'.format(type(self.pslist).__name__, type(self.psscan).__name__, type(self.malfind).__name__, type(self.envars).__name__, type(self.netscan).__name__))
+		return str('pslist: {}\tpsscan: {}\tmalfind:{}\tenvars: {}\tnetscan: {}\tcmdline: {}'.format(type(self.pslist).__name__, type(self.psscan).__name__, type(self.malfind).__name__, type(self.envars).__name__, type(self.netscan).__name__, type(self.cmdline).__name__))
 
 #==============
 
@@ -205,9 +218,9 @@ def makeGraph():
 	with open(dotFile,'w') as o:
 		o.write('digraph output {\nnode[shape = Mrecord];\nfontsize=16;\nnodesep=1.5;\nranksep=1;\nrankdir=LR;\n')
 		for i in c.listy():
-			o.write(i+';')
+			o.write(i+';\n')
 		for i in c.label():
-			o.write(i+';')
+			o.write(i+';\n')
 		o.write('\n}')
 	o.close()
 	print('Making output images...  these may take a minute to render.')

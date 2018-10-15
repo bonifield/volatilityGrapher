@@ -31,7 +31,7 @@ Add these switches: ```--output=json [module] --output-file=[module]-[youroutput
 - Basic with only pslist ```volGraph.py pslist.json```
 - With supported inputs:  ```volGraph.py pslist.json envars.json psscan.json malfind.json netscan.json cmdline.json```
 - Easy mode, use the provided Bash script with a memory capture and a Volatility profile to generate all of the necessary files:  ```ezVolGraph.sh somefile.dmp profile```
-# - Note that cmdline will make the nodes potentially very large
+### Note that cmdline will make the nodes potentially very large
 
 ## Example output:
 ### Powershell Empire:

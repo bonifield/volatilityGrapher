@@ -1,6 +1,7 @@
 # volatilityGrapher
 Force-directed graph generator for Volatility visualizations
 - Requires Python 3, GraphViz, and Volatility
+- v1.5.3 (15 Oct 2018) - added cmdline support, fixed this description
 - v1.5.2 (09 Oct 2018)
 	- totally re-written for Python 3
 	- absolutely requires JSON input from Volatility
@@ -20,7 +21,6 @@ Force-directed graph generator for Volatility visualizations
 
 ## TODO:  
 - dedup code, better classes, subgrouping
-- add cmdline support
 - add psxview support
 
 ## To get JSON output from Volatility:
@@ -29,8 +29,9 @@ Add these switches: ```--output=json [module] --output-file=[module]-[youroutput
 ## Usage
 ### The module name for each JSON file MUST be somewhere in the filename!
 - Basic with only pslist ```volGraph.py pslist.json```
-- With supported inputs:  ```volGraph.py pslist.json envars.json psscan.json malfind.json netscan.json```
+- With supported inputs:  ```volGraph.py pslist.json envars.json psscan.json malfind.json netscan.json cmdline.json```
 - Easy mode, use the provided Bash script with a memory capture and a Volatility profile to generate all of the necessary files:  ```ezVolGraph.sh somefile.dmp profile```
+# - Note that cmdline will make the nodes potentially very large
 
 ## Example output:
 ### Powershell Empire:

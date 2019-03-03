@@ -1,1 +1,1 @@
-Sample txt output from various Volatility modules.
+Sample outputs from volGraph.py

@@ -1,10 +1,12 @@
 # volatilityGrapher
 Force-directed graph generator for Volatility visualizations
 - Requires Python 3, GraphViz, and Volatility
-- v1.5.4 (01 Mar 2019) - added apihooks, connscan support (for pre-Vista network connections), added the below text about adding new module support
+- v1.5.4 (01 Mar 2019)
+	- added apihooks, connscan support (for pre-Vista network connections), added the below text about adding new module support
 	- fixed an issue where red malfind nodes could be converted back to orange
 	- re-enabled showing the first few malfind bytes
-- v1.5.3 (15 Oct 2018) - added cmdline support, fixed this description
+- v1.5.3 (15 Oct 2018)
+	- added cmdline support, fixed this description
 - v1.5.2 (09 Oct 2018)
 	- totally re-written for Python 3
 	- absolutely requires JSON input from Volatility
@@ -44,8 +46,8 @@ Add these switches: ```--output=json [module] --output-file=[module]-[youroutput
 - add psxview support
 
 ## Example output:
-### Powershell Empire:
-![volGraph.py](https://github.com/bonifield/volatilityGrapher/blob/master/sampledata/volGraph-1539122826-dot.png)
-### Metasploit Shenanigans:
-![volGraph.py](https://github.com/bonifield/volatilityGrapher/blob/master/sampledata/combine-1496526732.png)
+### Powershell Empire on Win7:
+![volGraph.py](https://github.com/bonifield/volatilityGrapher/blob/master/sampledata/volGraph-1551571181-dot.png)
+### Meterpreter on WinXP:
+![volGraph.py](https://github.com/bonifield/volatilityGrapher/blob/master/sampledata/volGraph-1551571385-dot.png)
 

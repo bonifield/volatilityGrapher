@@ -2,7 +2,7 @@
 Force-directed graph generator for Volatility visualizations
 - Requires Python 3, GraphViz, and Volatility
 - v1.5.4 (01 Mar 2019)
-	- added apihooks, connscan support (for pre-Vista network connections), added the below text about adding new module support
+	- added apihooks, connscan support (for pre-Vista network connections)
 	- fixed an issue where red malfind nodes could be converted back to orange
 	- re-enabled showing the first few malfind bytes
 - v1.5.3 (15 Oct 2018)
